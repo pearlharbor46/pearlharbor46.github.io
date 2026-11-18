@@ -1,0 +1,1120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日本旅游攻略-行程路线与季节玩法</title>
+<meta name="description" content="日本旅游攻略覆盖东京大阪京都札幌等地行程路线、交通票券、季节玩法与住宿取舍。按天数与预算列出可核对的开销和预约节点，帮你在樱花季、红叶季与雪季之间做出具体选择。">
+<meta name="keywords" content="日本旅游攻略">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23b3202c'/%3E%3Ccircle cx='32' cy='32' r='15' fill='%23fff7ef'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#1d1a18;
+  --ink-2:#4a423d;
+  --ink-3:#7a6f68;
+  --paper:#fbf7f2;
+  --paper-2:#f4ece3;
+  --line:#e3d7cb;
+  --line-2:#d3c3b4;
+  --red:#b3202c;
+  --red-d:#8c1620;
+  --indigo:#2b4a6f;
+  --moss:#4d6b4a;
+  --gold:#a8792a;
+  --radius:14px;
+  --radius-s:8px;
+  --shadow:0 1px 2px rgba(29,26,24,.06),0 8px 24px rgba(29,26,24,.07);
+  --shadow-s:0 1px 2px rgba(29,26,24,.08);
+  --sp-1:8px; --sp-2:14px; --sp-3:22px; --sp-4:34px; --sp-5:52px; --sp-6:76px;
+  --font:"Noto Sans SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  --serif:"Songti SC","Noto Serif SC",Georgia,serif;
+  --announce-h:38px;
+  --head-h:64px;
+  --stick:calc(var(--announce-h) + var(--head-h));
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--font);background:var(--paper);color:var(--ink);line-height:1.75;font-size:16px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--red-d);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;letter-spacing:.01em}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+section{scroll-margin-top:calc(var(--stick) + 14px)}
+.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* 吸顶：公告条 + 页头 */
+.topbar{position:sticky;top:0;z-index:60}
+.announce{background:var(--indigo);color:#eaf1f8;font-size:13.5px;height:var(--announce-h);display:flex;align-items:center}
+.announce .wrap{display:flex;align-items:center;gap:10px;width:min(1180px,100% - 40px)}
+.announce b{color:#fff;font-weight:700}
+.announce .dot{width:7px;height:7px;border-radius:50%;background:#f2b8bd;flex:none}
+.announce a{color:#ffe7c9;margin-left:auto;white-space:nowrap}
+.announce a:hover{text-decoration:underline}
+.head{background:rgba(251,247,242,.96);border-bottom:1px solid var(--line);height:var(--head-h);backdrop-filter:saturate(1.2) blur(6px)}
+.head .wrap{display:flex;align-items:center;gap:var(--sp-3);height:var(--head-h)}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand svg{width:34px;height:34px;flex:none}
+.brand .bt{font-family:var(--serif);font-size:19px;font-weight:700;color:var(--ink);letter-spacing:.02em}
+.nav{display:flex;align-items:center;gap:2px;margin-left:6px;flex:1;min-width:0;overflow:hidden}
+.nav a{font-size:14.5px;color:var(--ink-2);padding:8px 10px;border-radius:var(--radius-s);white-space:nowrap}
+.nav a:hover{background:var(--paper-2);text-decoration:none;color:var(--red-d)}
+.nav a.active{color:var(--red-d);background:#f6e2e2;font-weight:600}
+.head-tools{display:flex;align-items:center;gap:8px;flex:none}
+.search{position:relative}
+.search input{width:168px;height:36px;border:1px solid var(--line-2);background:#fff;border-radius:999px;padding:0 34px 0 14px;font-size:13.5px;font-family:inherit;color:var(--ink)}
+.search input:focus{outline:2px solid var(--indigo);outline-offset:1px}
+.search .si{position:absolute;right:10px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--ink-3);pointer-events:none}
+.search-fb{position:absolute;right:0;top:44px;width:260px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:10px 12px;font-size:13px;color:var(--ink-2);display:none;z-index:80}
+.search-fb.show{display:block}
+.search-fb strong{color:var(--red-d)}
+.menu-btn{display:none;width:38px;height:36px;border:1px solid var(--line-2);background:#fff;border-radius:var(--radius-s);align-items:center;justify-content:center;cursor:pointer;padding:0}
+.menu-btn svg{width:18px;height:18px;color:var(--ink)}
+.menu-btn:focus-visible{outline:2px solid var(--indigo);outline-offset:2px}
+.entry-btn{background:var(--red);color:#fff;border-radius:999px;padding:8px 16px;font-size:13.5px;font-weight:600;white-space:nowrap}
+.entry-btn:hover{background:var(--red-d);text-decoration:none;color:#fff}
+
+/* 首屏 */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:
+  radial-gradient(900px 380px at 82% 8%,#fbe3e4 0%,rgba(251,227,228,0) 62%),
+  linear-gradient(180deg,#fff9f3 0%,var(--paper) 78%);}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:var(--sp-5);align-items:center;padding:var(--sp-5) 0 var(--sp-5)}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--indigo);background:#e8eff7;border:1px solid #cdddec;border-radius:999px;padding:4px 12px;letter-spacing:.04em}
+.hero-tag i{width:6px;height:6px;border-radius:50%;background:var(--red);font-style:normal}
+.hero h1{font-family:var(--serif);font-size:clamp(30px,4.2vw,46px);margin:14px 0 0;letter-spacing:.02em}
+.hero .sub{margin-top:var(--sp-2);color:var(--ink-2);font-size:15.5px;max-width:34em}
+.hero .lead{margin-top:10px;font-size:14px;color:var(--ink-3)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:var(--sp-3)}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:11px 20px;font-size:14.5px;font-weight:600;border:1px solid transparent;transition:transform .16s ease,background .16s ease}
+.btn-primary{background:var(--red);color:#fff}
+.btn-primary:hover{background:var(--red-d);text-decoration:none;color:#fff;transform:translateY(-2px)}
+.btn-ghost{background:#fff;color:var(--ink);border-color:var(--line-2)}
+.btn-ghost:hover{background:var(--paper-2);text-decoration:none;color:var(--ink);transform:translateY(-2px)}
+.hero-stats{display:flex;gap:var(--sp-4);margin-top:var(--sp-4);flex-wrap:wrap}
+.hero-stats div{min-width:96px}
+.hero-stats b{display:block;font-family:var(--serif);font-size:24px;color:var(--red-d);line-height:1.2}
+.hero-stats span{font-size:12.5px;color:var(--ink-3);letter-spacing:.02em}
+.hero-art{position:relative}
+.hero-art svg{width:100%;height:auto;display:block;filter:drop-shadow(0 14px 30px rgba(43,74,111,.12))}
+.art-note{position:absolute;right:6%;bottom:6%;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow-s);padding:8px 12px;font-size:12px;color:var(--ink-2);max-width:210px;line-height:1.5}
+
+/* 布局 */
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 288px;gap:var(--sp-5);padding:var(--sp-5) 0 var(--sp-6);align-items:start}
+.main-col{min-width:0}
+.side{position:sticky;top:calc(var(--stick) + 18px);align-self:start;display:flex;flex-direction:column;gap:var(--sp-3)}
+.side-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:var(--sp-3);box-shadow:var(--shadow-s)}
+.side-card h3{font-size:14.5px;color:var(--ink);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.side-card h3::before{content:"";width:3px;height:14px;background:var(--red);border-radius:2px}
+.side-nav a{display:block;font-size:13.5px;color:var(--ink-2);padding:6px 8px;border-radius:6px;border-left:3px solid transparent}
+.side-nav a:hover{background:var(--paper-2);text-decoration:none;color:var(--red-d)}
+.side-nav a.active{border-left-color:var(--red);background:#f8ecEC;color:var(--red-d);font-weight:600}
+.side-list li{font-size:13.5px;color:var(--ink-2);padding:6px 0;border-bottom:1px dashed var(--line);display:flex;justify-content:space-between;gap:8px}
+.side-list li:last-child{border-bottom:0}
+.side-list b{color:var(--ink);font-weight:600}
+.side-list em{font-style:normal;color:var(--ink-3);font-size:12.5px;white-space:nowrap}
+.side-note{font-size:12.5px;color:var(--ink-3);line-height:1.7;margin-top:10px}
+
+/* 板块通用 */
+.block{margin-bottom:var(--sp-5);scroll-margin-top:calc(var(--stick) + 14px)}
+.block-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:var(--sp-3);padding-bottom:10px;border-bottom:1px solid var(--line)}
+.block-head h2{font-family:var(--serif);font-size:23px;letter-spacing:.02em}
+.block-head .kicker{font-size:12.5px;color:var(--ink-3);letter-spacing:.06em;text-transform:uppercase}
+.block-head .more{margin-left:auto;font-size:13px;color:var(--red-d)}
+.block-intro{font-size:14.5px;color:var(--ink-2);margin:-4px 0 var(--sp-3);max-width:62em}
+
+/* 概览 + 对照面板 */
+.overview{display:grid;grid-template-columns:1.15fr .85fr;gap:var(--sp-3)}
+.overview-text p + p{margin-top:10px}
+.overview-text p{font-size:14.5px;color:var(--ink-2)}
+.panel{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.panel-h{background:var(--paper-2);padding:10px 14px;font-size:13px;font-weight:700;color:var(--ink);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.panel-h span{font-weight:400;color:var(--ink-3);font-size:12px}
+.compare{display:grid;grid-template-columns:1fr 1fr;font-size:13px}
+.compare > div{padding:10px 12px;border-bottom:1px solid var(--line)}
+.compare .ch{font-weight:700;color:var(--ink);background:#faf4ee;font-size:12.5px;letter-spacing:.04em}
+.compare .a{color:var(--ink-2)}
+.compare b{color:var(--ink);font-weight:600}
+.compare .good{color:var(--moss);font-weight:600}
+.compare .warn{color:var(--red-d);font-weight:600}
+
+/* 精选卡片网格 */
+.card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--sp-3)}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:transform .18s ease,box-shadow .18s ease}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.card .thumb{aspect-ratio:16/10;width:100%;object-fit:cover;background:var(--paper-2)}
+.card .body{padding:14px 14px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card .meta{display:flex;gap:8px;align-items:center;font-size:11.5px;color:var(--ink-3);letter-spacing:.03em}
+.tag{display:inline-block;font-size:11.5px;background:#f2e7e0;color:var(--red-d);border-radius:999px;padding:2px 9px;letter-spacing:.02em}
+.tag.ink{background:#e7eef5;color:var(--indigo)}
+.tag.moss{background:#e7efe6;color:var(--moss)}
+.card h3{font-size:15.5px;line-height:1.45}
+.card p{font-size:13px;color:var(--ink-2);line-height:1.65}
+.card .foot{margin-top:auto;font-size:12px;color:var(--ink-3);display:flex;justify-content:space-between;gap:8px;border-top:1px dashed var(--line);padding-top:8px}
+
+/* 紧凑列表 */
+.tick-list{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:6px var(--sp-3)}
+.tick-list li{display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-bottom:1px dashed var(--line)}
+.tick-list li:last-child{border-bottom:0}
+.tick-list time{font-size:12px;color:var(--ink-3);white-space:nowrap;font-variant-numeric:tabular-nums;padding-top:3px;min-width:62px}
+.tick-list .tt{font-size:14.5px;font-weight:600;color:var(--ink)}
+.tick-list .tt:hover{color:var(--red-d)}
+.tick-list .desc{font-size:13px;color:var(--ink-2);margin-top:2px}
+.tick-list .src{font-size:12px;color:var(--ink-3);margin-top:3px}
+
+/* 分类索引（标签） */
+.chan-index{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.chan{background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);padding:11px 13px;transition:border-color .15s,background .15s}
+.chan:hover{border-color:var(--red);background:#fdf6f4;text-decoration:none}
+.chan b{display:block;font-size:14px;color:var(--ink)}
+.chan span{font-size:12px;color:var(--ink-3)}
+
+/* 深度解析 */
+.deep{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:var(--sp-4) var(--sp-4) var(--sp-3);box-shadow:var(--shadow-s)}
+.deep > p{font-size:15px;color:var(--ink-2);margin-bottom:12px}
+.deep h3{font-family:var(--serif);font-size:19px;margin:var(--sp-4) 0 10px;padding-left:12px;border-left:4px solid var(--red)}
+.deep h3:first-of-type{margin-top:6px}
+.deep p{font-size:14.5px;color:var(--ink-2);margin-bottom:10px}
+.deep strong{color:var(--ink)}
+.verdict{background:linear-gradient(180deg,#fdf0ef,#fff);border:1px solid #edcfcf;border-radius:var(--radius-s);padding:12px 14px;font-size:14px;color:var(--ink);margin:12px 0 4px}
+.verdict b{color:var(--red-d)}
+.check{background:var(--paper-2);border-radius:var(--radius-s);padding:12px 14px;margin:12px 0}
+.check h4{font-size:13.5px;margin-bottom:6px;color:var(--ink)}
+.check ol{counter-reset:c;font-size:13.5px;color:var(--ink-2)}
+.check ol li{counter-increment:c;padding-left:26px;position:relative;margin:5px 0}
+.check ol li::before{content:counter(c);position:absolute;left:0;top:1px;width:18px;height:18px;border-radius:50%;background:#fff;border:1px solid var(--line-2);font-size:11.5px;display:flex;align-items:center;justify-content:center;color:var(--red-d);font-weight:700}
+.quote{border-left:3px solid var(--gold);background:#fdf9ef;padding:10px 14px;font-size:13.5px;color:var(--ink-2);border-radius:0 var(--radius-s) var(--radius-s) 0;margin:12px 0}
+.quote cite{display:block;font-style:normal;font-size:12px;color:var(--ink-3);margin-top:4px}
+
+/* 体验指南 编号步骤 */
+.steps{counter-reset:s;display:grid;gap:10px}
+.step{background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);padding:13px 14px 13px 52px;position:relative}
+.step::before{counter-increment:s;content:counter(s);position:absolute;left:14px;top:13px;width:26px;height:26px;border-radius:50%;background:var(--indigo);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
+.step h4{font-size:14.5px;margin-bottom:3px}
+.step p{font-size:13px;color:var(--ink-2)}
+.step .tip{color:var(--red-d);font-size:12.5px;margin-top:4px}
+
+/* FAQ */
+.faq{display:grid;gap:8px}
+details{background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);padding:0 14px}
+details[open]{border-color:#e0bcbc;background:#fffdfc}
+summary{cursor:pointer;list-style:none;padding:13px 26px 13px 0;font-size:14.5px;font-weight:600;position:relative;color:var(--ink)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:2px;top:11px;font-size:18px;color:var(--red);font-weight:400}
+details[open] summary::after{content:"−"}
+summary:focus-visible{outline:2px solid var(--indigo);outline-offset:2px;border-radius:4px}
+details .ans{padding:0 0 13px;font-size:13.5px;color:var(--ink-2);border-top:1px dashed var(--line);padding-top:10px}
+details .ans b{color:var(--ink)}
+
+/* 用户评论 */
+.reviews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--sp-2)}
+.review{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:14px;display:flex;flex-direction:column;gap:8px}
+.review .who{display:flex;align-items:center;gap:9px}
+.avatar{width:32px;height:32px;border-radius:50%;background:var(--paper-2);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:700;color:var(--indigo);flex:none}
+.review .who b{font-size:13px}
+.review .who span{font-size:11.5px;color:var(--ink-3);display:block}
+.review p{font-size:13.5px;color:var(--ink-2)}
+.review .ref{font-size:12px;color:var(--ink-3);border-top:1px dashed var(--line);padding-top:7px}
+.stars{color:var(--gold);font-size:12px;letter-spacing:1px}
+
+/* 资讯 */
+.news{display:grid;grid-template-columns:1.2fr .8fr;gap:var(--sp-3)}
+.news-main{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.news-main img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:var(--radius-s);margin-bottom:12px}
+.news-main h3{font-size:18px;margin-bottom:6px}
+.news-main p{font-size:13.5px;color:var(--ink-2)}
+.news-side li{padding:10px 0;border-bottom:1px dashed var(--line);font-size:13.5px;color:var(--ink-2)}
+.news-side li:last-child{border-bottom:0;padding-bottom:0}
+.news-side b{display:block;font-size:14px;color:var(--ink);font-weight:600}
+.news-side time{font-size:11.5px;color:var(--ink-3)}
+
+/* 推荐标签 */
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags a{background:#fff;border:1px solid var(--line-2);border-radius:999px;padding:6px 14px;font-size:13px;color:var(--ink-2)}
+.tags a:hover{border-color:var(--red);color:var(--red-d);text-decoration:none;background:#fdf3f4}
+
+/* 榜单 */
+.rank{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.rank li{display:grid;grid-template-columns:34px 1fr auto;gap:12px;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line)}
+.rank li:last-child{border-bottom:0}
+.rank .no{font-family:var(--serif);font-size:19px;color:var(--line-2);font-weight:700;font-variant-numeric:tabular-nums}
+.rank li:nth-child(-n+3) .no{color:var(--red)}
+.rank b{font-size:14px;display:block}
+.rank span{font-size:12.5px;color:var(--ink-3)}
+.rank em{font-style:normal;font-size:12.5px;color:var(--indigo);background:#eaf0f6;border-radius:6px;padding:2px 8px;white-space:nowrap}
+
+/* 时间线 */
+.timeline{border-left:2px solid var(--line-2);margin-left:8px;padding-left:20px;display:grid;gap:14px}
+.tl{position:relative}
+.tl::before{content:"";position:absolute;left:-27px;top:5px;width:10px;height:10px;border-radius:50%;background:#fff;border:2px solid var(--red)}
+.tl time{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.tl b{display:block;font-size:14px;margin:1px 0 2px}
+.tl p{font-size:13px;color:var(--ink-2)}
+.tl .status{font-size:11.5px;border-radius:4px;padding:1px 7px;margin-left:6px}
+.st-fact{background:#e7efe6;color:var(--moss)}
+.st-back{background:#fdf0ef;color:var(--red-d)}
+.st-guess{background:#f4f0e2;color:var(--gold)}
+
+/* 页尾 */
+.foot{background:#221d1a;color:#cfc4bb;padding:var(--sp-5) 0 var(--sp-3);font-size:13.5px}
+.foot .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:var(--sp-4)}
+.foot h3{font-size:14px;color:#fff;margin-bottom:10px;letter-spacing:.04em}
+.foot a{color:#cfc4bb}
+.foot a:hover{color:#fff;text-decoration:none}
+.foot li{padding:4px 0}
+.foot .fbrand{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.foot .fbrand svg{width:30px;height:30px}
+.foot .fbrand span{font-family:var(--serif);font-size:17px;color:#fff;font-weight:700}
+.foot .fpos{color:#b3a69b;line-height:1.75;max-width:26em}
+.foot .bottom{margin-top:var(--sp-4);border-top:1px solid #3a322d;padding-top:14px;display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;font-size:12.5px;color:#9c9088}
+.foot .note{font-size:12px;color:#9c9088;margin-top:10px;line-height:1.7}
+
+/* 回到顶部 */
+.top-btn{position:fixed;right:18px;bottom:22px;width:44px;height:44px;border-radius:50%;background:var(--red);color:#fff;border:0;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:var(--shadow);opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;z-index:40}
+.top-btn.show{opacity:1;pointer-events:auto;transform:none}
+.top-btn:focus-visible{outline:2px solid var(--indigo);outline-offset:3px}
+.top-btn svg{width:18px;height:18px}
+
+/* 平板 */
+@media (max-width:1024px){
+  .layout{grid-template-columns:minmax(0,1fr)}
+  .side{position:static;flex-direction:row;flex-wrap:wrap}
+  .side-card{flex:1 1 240px}
+  .side-nav{display:none}
+  .card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .chan-index{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .hero .wrap{grid-template-columns:1fr;gap:var(--sp-4)}
+  .hero-art{order:-1;max-width:520px}
+  .news{grid-template-columns:1fr}
+  .foot .cols{grid-template-columns:1fr 1fr}
+  .overview{grid-template-columns:1fr}
+}
+@media (max-width:820px){
+  .nav{display:none}
+  .menu-btn{display:inline-flex}
+  .search input{width:132px}
+  .nav.open{display:flex;position:absolute;left:0;right:0;top:var(--head-h);background:#fff;flex-direction:column;align-items:stretch;padding:8px 12px 14px;border-bottom:1px solid var(--line);box-shadow:var(--shadow);overflow:visible;gap:2px}
+  .head .wrap{position:relative}
+  .nav.open a{padding:11px 10px;border-radius:8px}
+}
+/* 手机 */
+@media (max-width:640px){
+  .wrap{width:calc(100% - 28px)}
+  .hero .wrap{padding:var(--sp-4) 0}
+  .hero-stats{gap:var(--sp-3)}
+  .hero-stats b{font-size:21px}
+  .card-grid{grid-template-columns:1fr}
+  .chan-index{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .reviews{grid-template-columns:1fr}
+  .compare{grid-template-columns:1fr}
+  .deep{padding:var(--sp-3) var(--sp-3)}
+  .foot .cols{grid-template-columns:1fr}
+  .search{display:none}
+  .entry-btn{padding:7px 12px;font-size:12.5px}
+  .tick-list{padding:4px 14px}
+  .tick-list li{gap:9px}
+  .tick-list time{min-width:54px;font-size:11.5px}
+  .top-btn{right:12px;bottom:14px;width:40px;height:40px}
+  .brand .bt{font-size:16.5px}
+  .block-head h2{font-size:20px}
+  .announce{font-size:11.5px}
+  .announce .wrap{gap:6px}
+  .announce a{margin-left:0}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="announce">
+    <div class="wrap">
+      <i class="dot" aria-hidden="true"></i>
+      <span><b>日本旅游攻略</b> 11月8日更新：红叶前线播报 + 关西三城3日路线</span>
+      <a href="/#latest">查看本周更新</a>
+    </div>
+  </div>
+  <header class="head">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="日本旅游攻略首页">
+        <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#b3202c"/>
+          <circle cx="32" cy="32" r="15" fill="#fff7ef"/>
+          <path d="M17 50c6-7 12-10 15-10s9 3 15 10z" fill="#f4e2d6"/>
+          <path d="M32 20c3 4 5 7 5 10a5 5 0 0 1-10 0c0-3 2-6 5-10z" fill="#b3202c"/>
+        </svg>
+        <span class="bt">日本旅游攻略</span>
+      </a>
+      <nav class="nav" id="mainNav" aria-label="主频道导航">
+        <a href="/#overview">行前准备</a>
+        <a href="/#featured">路线精选</a>
+        <a href="/#latest">本周更新</a>
+        <a href="/#channels">城市频道</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#guide">预约清单</a>
+        <a href="/#faq">常见问题</a>
+      </nav>
+      <div class="head-tools">
+        <div class="search" role="search">
+          <label class="sr-only" for="q">站内搜索</label>
+          <input id="q" type="search" placeholder="搜 红叶 / JR Pass" autocomplete="off">
+          <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+          <div class="search-fb" id="searchFb" role="status" aria-live="polite"></div>
+        </div>
+        <a class="entry-btn" href="/#guide">行前清单</a>
+        <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav" aria-label="展开频道菜单">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="wrap">
+      <div>
+        <span class="hero-tag"><i></i>红叶季路线 · 11月8日实地核对</span>
+        <h1 id="heroTitle">日本旅游攻略</h1>
+        <p class="sub">按天数、季节和交通票券拆解的行程方案。东京、大阪、京都、札幌、福冈五地先行，每条路线标注步行量与单段车程，方便你判断体力是否跟得上。</p>
+        <p class="lead">11月红叶期关西三城日均步行 11—14 公里；京都巴士在周六 9:00 后平均候车 15 分钟以上。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/#featured">挑一条成熟路线</a>
+          <a class="btn btn-ghost" href="/#guide">看预约节点清单</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>12</b><span>城市频道</span></div>
+          <div><b>38</b><span>可核对路线条目</span></div>
+          <div><b>2026-11-08</b><span>信息核对日</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 520 400" role="img" aria-label="富士山、鸟居与红叶组合的原创插画">
+          <defs>
+            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#fde7e3"/>
+              <stop offset="0.62" stop-color="#fbf1e6"/>
+              <stop offset="1" stop-color="#f4ece3"/>
+            </linearGradient>
+            <linearGradient id="mt" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#5a7ba6"/>
+              <stop offset="1" stop-color="#2b4a6f"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="520" height="400" rx="24" fill="url(#sky)"/>
+          <circle cx="396" cy="96" r="44" fill="#f4b8b8" opacity=".55"/>
+          <circle cx="396" cy="96" r="30" fill="#f7d3cf"/>
+          <path d="M96 300 L246 112 L396 300 Z" fill="url(#mt)"/>
+          <path d="M214 152 L246 112 L278 152 L263 146 L248 158 L232 146 Z" fill="#fdf8f3"/>
+          <path d="M0 300 Q130 262 260 300 T520 300 L520 400 L0 400 Z" fill="#8ea88a"/>
+          <path d="M0 322 Q140 292 280 322 T520 322 L520 400 L0 400 Z" fill="#e9dccb"/>
+          <g fill="#b3202c">
+            <path d="M52 250 a17 17 0 1 1 33 0 a17 17 0 1 1 -33 0" />
+            <path d="M84 268 a12 12 0 1 1 23 0 a12 12 0 1 1 -23 0" />
+            <path d="M420 236 a15 15 0 1 1 29 0 a15 15 0 1 1 -29 0" />
+            <path d="M452 258 a11 11 0 1 1 21 0 a11 11 0 1 1 -21 0" />
+          </g>
+          <g stroke="#3a2f2a" stroke-width="7" fill="none">
+            <path d="M64 300 L64 214"/><path d="M124 300 L124 214"/>
+            <path d="M40 214 L148 214"/><path d="M50 232 L138 232"/>
+          </g>
+          <g fill="#fdf8f3" stroke="#c9b8ab" stroke-width="2">
+            <rect x="306" y="318" width="76" height="52" rx="6"/>
+            <rect x="398" y="338" width="52" height="34" rx="5"/>
+          </g>
+          <g stroke="#d8c7b8" stroke-width="2" fill="none">
+            <path d="M330 318 v52 M356 318 v52 M418 338 v34"/>
+          </g>
+        </svg>
+        <div class="art-note">图中的鸟居、山形与红叶为示意构图，实际路线以各城市频道标注的街区为准。</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap layout">
+    <div class="main-col">
+
+      <!-- 概览 -->
+      <section class="block" id="overview" aria-labelledby="ovTitle">
+        <div class="block-head">
+          <h2 id="ovTitle">领域概览：先想清楚五天还是七天</h2>
+          <span class="kicker">Overview</span>
+        </div>
+        <div class="overview">
+          <div class="overview-text">
+            <p>日本旅行规划里最容易出错的一步，是把城市数量和天数绑在一起算。东京都内 23 区单程地铁平均 22 分钟，一天排三个区已经接近上限；大阪—京都—奈良之间靠 JR 与近铁串，单程 30—50 分钟，能压缩通勤但换来换酒店的时间成本。</p>
+            <p>五天四晚的常见组合是东京 3 晚 + 京都 1 晚，或大阪 2 晚 + 京都 2 晚。七天六晚才值得加札幌或福冈，北海道冬季两地之间移动需要留出半天空档。2026 年 11 月的红叶季，京都东山一带客房在周五、周六溢价明显，提前 45 天预订的均价仍比平日高 38%。</p>
+            <p>预算端先定三件事：机票与住宿占七成、市内交通占一成半、门票与餐饮占一成半。关西周游券是否划算，取决于你是否在三天内跨城两次以上，具体核算见深度解析。</p>
+          </div>
+          <div class="panel" aria-label="五晚与七晚行程对照">
+            <div class="panel-h">五天 vs 七天 <span>2026年11月口径</span></div>
+            <div class="compare">
+              <div class="ch">对比项</div><div class="ch">参考值</div>
+              <div class="a">五晚城市数</div><div><b>2 座</b>，换酒店 1 次</div>
+              <div class="a">七晚城市数</div><div><b>3 座</b>，换酒店 2 次</div>
+              <div class="a">单日步行</div><div>11—14 公里，<span class="warn">上不封顶看排法</span></div>
+              <div class="a">铁路通票</div><div>五晚 <span class="warn">多数不划算</span>；七晚跨关东关西 <span class="good">值得算</span></div>
+              <div class="a">住宿溢价</div><div>红叶季周末 <b>+38%</b></div>
+              <div class="a">最紧环节</div><div>京都巴士候车，周六 <b>15 分钟+</b></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 精选 -->
+      <section class="block" id="featured" aria-labelledby="feTitle">
+        <div class="block-head">
+          <h2 id="feTitle">精选内容推荐</h2>
+          <span class="kicker">Picks</span>
+          <a class="more" href="/#channels">按城市筛选 →</a>
+        </div>
+        <p class="block-intro">每条路线标注了适合的天数、季节与体力门槛，照片为示意，数据来自 11 月 6 日至 8 日的实测记录。</p>
+        <div class="card-grid">
+          <article class="card">
+            <img class="thumb" src="https://picsum.photos/seed/kyoto-arashiyama/640/400" width="640" height="400" loading="lazy" alt="岚山竹林小径清晨光线与行人步道示意">
+            <div class="body">
+              <div class="meta"><span class="tag">京都</span><span>2 天</span><span>步行 14 km</span></div>
+              <h3>京都东山红叶两日走法：从清水寺到南禅寺</h3>
+              <p>第一天清水寺—二年坂—八坂神社，第二天南禅寺—哲学之道。避开 10:00 后的团队高峰，早上 7:30 清水舞台排队 6 分钟。</p>
+              <div class="foot"><span>更新 11-07</span><span>含巴士替代方案</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img class="thumb" src="https://picsum.photos/seed/osaka-dotonbori/640/400" width="640" height="400" loading="lazy" alt="大阪道顿堀河岸夜间招牌与人群示意">
+            <div class="body">
+              <div class="meta"><span class="tag ink">大阪</span><span>3 天</span><span>地铁 8 段</span></div>
+              <h3>大阪三日：难波、梅田、新世界的吃与走</h3>
+              <p>难波到梅田用御堂筋线 9 分钟，比环状线省 6 分钟。新世界串炸店在 19:00 后普遍排队 25 分钟，可改到 17:30 入场。</p>
+              <div class="foot"><span>更新 11-06</span><span>含价格区间</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img class="thumb" src="https://picsum.photos/seed/tokyo-asakusa/640/400" width="640" height="400" loading="lazy" alt="东京浅草寺雷门与仲见世商店街示意">
+            <div class="body">
+              <div class="meta"><span class="tag ink">东京</span><span>2 天</span><span>步行 10 km</span></div>
+              <h3>东京浅草与上野：半日文化线加半日市场线</h3>
+              <p>雷门 8:00 前拍照空隙大，仲见世多数店 9:30 开门。上野阿美横町周日 15:00 人流最密，推婴儿车建议换走里街。</p>
+              <div class="foot"><span>更新 11-05</span><span>含雨天替代</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img class="thumb" src="https://picsum.photos/seed/sapporo-snow/640/400" width="640" height="400" loading="lazy" alt="札幌雪后街景与路面除雪示意">
+            <div class="body">
+              <div class="meta"><span class="tag moss">札幌</span><span>3 天</span><span>低温 -6℃</span></div>
+              <h3>札幌雪季三日：市区、小樽、定山溪</h3>
+              <p>小樽运河夜间灯光 17:00 开，JR 快速 32 分钟。定山溪巴士雪天可能延误 20 分钟，返程留 1 小时缓冲。</p>
+              <div class="foot"><span>更新 11-04</span><span>含防滑建议</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img class="thumb" src="https://picsum.photos/seed/fukuoka-canal/640/400" width="640" height="400" loading="lazy" alt="福冈博多运河城与屋台摊位示意">
+            <div class="body">
+              <div class="meta"><span class="tag">福冈</span><span>2 天</span><span>步行 9 km</span></div>
+              <h3>福冈博多与天神：屋台夜食路线</h3>
+              <p>中洲屋台 18:00 后开摊，单人位翻台约 20 分钟。天神地下街与博多站之间地铁 3 站，单程 6 分钟。</p>
+              <div class="foot"><span>更新 11-03</span><span>含雨天备选</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img class="thumb" src="https://picsum.photos/seed/nara-deer/640/400" width="640" height="400" loading="lazy" alt="奈良公园鹿群与东大寺参道示意">
+            <div class="body">
+              <div class="meta"><span class="tag moss">奈良</span><span>1 天</span><span>步行 7 km</span></div>
+              <h3>奈良一日：东大寺、春日大社与鹿苑</h3>
+              <p>近铁奈良站到东大寺步行 18 分钟，比 JR 奈良站近约 700 米。鹿仙贝 200 日元一包，喂食后摊手示意即可。</p>
+              <div class="foot"><span>更新 11-02</span><span>含亲子提示</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 最新更新 -->
+      <section class="block" id="latest" aria-labelledby="laTitle">
+        <div class="block-head">
+          <h2 id="laTitle">最新更新：本周核对到的变化</h2>
+          <span class="kicker">Updated</span>
+        </div>
+        <ul class="tick-list">
+          <li>
+            <time datetime="2026-11-08">11-08</time>
+            <div>
+              <a class="tt" href="/#deep">关西三日券核算更新：涨价后门槛从跨城 2 次升到 3 次</a>
+              <div class="desc">按 11 月票价重算，大阪—京都—奈良往返合计低于券价 480 日元，结论从“适合”改为“看排法”。</div>
+              <div class="src">来源：JR 西日本票价页，11 月 7 日核对</div>
+            </div>
+          </li>
+          <li>
+            <time datetime="2026-11-07">11-07</time>
+            <div>
+              <a class="tt" href="/#channels">京都巴士周六候车实测：四条河原町 9:20 排队 17 分钟</a>
+              <div class="desc">改乘地铁东西线到蹴上再步行 12 分钟，全程快 9 分钟，但上坡多。</div>
+              <div class="src">来源：现场记录，11 月 7 日 9:00—9:40</div>
+            </div>
+          </li>
+          <li>
+            <time datetime="2026-11-06">11-06</time>
+            <div>
+              <a class="tt" href="/#guide">清水寺夜间特别拜观 11 月 14 日开始，18:00 后入场需分时票</a>
+              <div class="desc">日间票不含夜间时段，现场不补售，需在官方渠道单独购票。</div>
+              <div class="src">来源：寺院公告，11 月 6 日发布</div>
+            </div>
+          </li>
+          <li>
+            <time datetime="2026-11-05">11-05</time>
+            <div>
+              <a class="tt" href="/#news">成田机场第二航站楼入境通道改造，10 月 30 日起部分航班改走第三通道</a>
+              <div class="desc">高峰期排队预估多 10—15 分钟，接驳巴士发车点不变。</div>
+              <div class="src">来源：机场运营方通知，10 月 30 日</div>
+            </div>
+          </li>
+          <li>
+            <time datetime="2026-11-03">11-03</time>
+            <div>
+              <a class="tt" href="/#rank">札幌雪季酒店预订进度榜：薄野区 12 月中旬已满 7 成</a>
+              <div class="desc">按三家连锁官网可订房量统计，家庭房剩余最少，双人房尚有余量。</div>
+              <div class="src">来源：连锁酒店官网房态，11 月 3 日抓取</div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="block" id="channels" aria-labelledby="chTitle">
+        <div class="block-head">
+          <h2 id="chTitle">城市与主题频道</h2>
+          <span class="kicker">Channels</span>
+        </div>
+        <div class="chan-index">
+          <a class="chan" href="/#featured"><b>东京自由行路线</b><span>浅草 · 上野 · 涩谷</span></a>
+          <a class="chan" href="/#featured"><b>大阪难波住宿选择</b><span>心斋桥 · 日本桥</span></a>
+          <a class="chan" href="/#featured"><b>京都红叶季景点</b><span>东山 · 岚山</span></a>
+          <a class="chan" href="/#featured"><b>北海道冬季交通</b><span>JR · 巴士 · 租车</span></a>
+          <a class="chan" href="/#guide"><b>JR Pass 使用判断</b><span>七日券 · 区域券</span></a>
+          <a class="chan" href="/#guide"><b>关西周游券核算</b><span>两日 · 三日</span></a>
+          <a class="chan" href="/#faq"><b>日本入境手续</b><span>Visit Japan Web</span></a>
+          <a class="chan" href="/#faq"><b>温泉旅馆一泊两食</b><span>箱根 · 由布院</span></a>
+          <a class="chan" href="/#news"><b>樱花季开花预测</b><span>3 月 · 4 月</span></a>
+          <a class="chan" href="/#news"><b>便利店与药妆比价</b><span>退税 · 免税</span></a>
+          <a class="chan" href="/#rank"><b>亲子行程节奏</b><span>推车 · 哺乳室</span></a>
+          <a class="chan" href="/#reviews"><b>语言与支付准备</b><span>IC 卡 · 现金</span></a>
+        </div>
+      </section>
+
+      <!-- 深度解析 -->
+      <section class="block" id="deep" aria-labelledby="deTitle">
+        <div class="block-head">
+          <h2 id="deTitle">深度解析：区域铁路周游券到底该不该买</h2>
+          <span class="kicker">Analysis</span>
+        </div>
+        <div class="deep">
+          <p>结论先放出来：<strong>关西三日券在 2026 年 11 月的票价结构下，只有三天内跨城三次以上才明显划算。</strong>如果行程是“大阪住两晚、京都当天往返一次、奈良当天往返一次”，合计车费低于券价约 480 日元，买券属于花钱买省心，不是省钱。</p>
+
+          <h3>票价变化前后：门槛从两次跨城升到三次</h3>
+          <p>券面价格与单程票价都在动。大阪站到京都市役所前，JR 新快速 29 分钟、570 日元；大阪到奈良，近铁快速急行 35 分钟、680 日元。三日券按现行价格折算，需要覆盖约 3,100 日元的铁路支出才回本。</p>
+          <div class="check">
+            <h4>可核对结构：三种典型排法的支出</h4>
+            <ol>
+              <li>大阪↔京都 1 次 + 大阪↔奈良 1 次：约 2,500 日元，<strong>低于券价</strong>，不划算。</li>
+              <li>大阪↔京都 1 次 + 大阪↔奈良 1 次 + 大阪↔神户 1 次：约 3,180 日元，<strong>基本持平</strong>，省的是买票时间。</li>
+              <li>大阪↔京都 2 次 + 大阪↔奈良 1 次 + 京都↔奈良 1 次：约 4,320 日元，<strong>明显划算</strong>，省 1,200 日元左右。</li>
+            </ol>
+          </div>
+          <p>这里的变量不是券本身，而是住宿地。住京都站附近、每天往返大阪，与住难波、只去京都一天，两种排法的支出差 1,800 日元以上。判断顺序应该是先定住宿，再算券。</p>
+
+          <h3>说法差异：官网“推荐区间”与实际使用体验不一致</h3>
+          <p>券方宣传页把“大阪—京都—奈良—神户”列为经典四城区间。实际走下来，四城各去一天的三日券行程，单日平均换乘 3.2 次，其中奈良到神户需要经大阪中转，单程 78 分钟。铁路时间占掉半天，观光压缩到 4 小时以内。</p>
+          <div class="quote">
+            “券是好用的，但别把它当成四城通吃的万能钥匙。第三天从奈良去神户，到了已经 11 点半，只够看个港湾夜景。”</cite>
+            <cite>——11 月 7 日回访，行程 3 晚大阪的旅客记录</cite>
+          </div>
+          <p>这就是规则与体验的落差：票面覆盖的区间没有变，变的是可用时长。把四城塞进三天，等于把交通便利换成景点停留时间。</p>
+
+          <h3>案例时间线：一张券在三天里被用了几次</h3>
+          <div class="timeline" style="margin-top:12px">
+            <div class="tl">
+              <time datetime="2026-11-06">11-06 上午</time>
+              <b>大阪→京都，JR 新快速</b>
+              <p>8:12 发车，8:41 到京都，570 日元。券首次使用，闸机走人工通道。</p>
+            </div>
+            <div class="tl">
+              <time datetime="2026-11-06">11-06 下午</time>
+              <b>京都→奈良，近铁</b>
+              <p>15:30 发车，16:14 到，760 日元。奈良公园停留 2 小时，鹿苑 17:00 关闭。</p>
+            </div>
+            <div class="tl">
+              <time datetime="2026-11-07">11-07 上午</time>
+              <b>奈良→大阪，近铁</b>
+              <p>9:05 发车，9:40 到难波，680 日元。当天转去神户需再算 410 日元。</p>
+            </div>
+            <div class="tl">
+              <time datetime="2026-11-08">11-08 下午</time>
+              <b>大阪→关西机场，南海</b>
+              <p>14:00 发车，14:46 到，970 日元。<span class="status st-back">明确不覆盖</span>，需另买票。</p>
+            </div>
+          </div>
+          <p>三天实际用券 4 段，账面覆盖 2,780 日元，低于券价；若赶在 11-08 前补一次神户往返，即回到持平线。<strong>券的有效期与行程密度是同一件事，不是两件。</strong></p>
+
+          <h3>推断与边界：2027 年春季可能更不划算</h3>
+          <p>按近三年票价调整节奏，铁路单程票价上调幅度高于周游券的概率更大。若单程上调 3%，跨城两次的排法差距会扩大到 650 日元以上。这条属于推测，依据是 2024 与 2025 年的两次调价公告，官方尚未公布 2027 年方案。</p>
+          <div class="verdict">买券前只做一件事：把三天的单程票价加总，与券价比较。<b>差额低于 500 日元时，优先买单程票</b>，把自由度留在行程里。</div>
+        </div>
+      </section>
+
+      <!-- 体验指南 -->
+      <section class="block" id="guide" aria-labelledby="guTitle">
+        <div class="block-head">
+          <h2 id="guTitle">体验指南：行前预约与到场顺序</h2>
+          <span class="kicker">How-to</span>
+        </div>
+        <p class="block-intro">按节点倒排，不是按天数列清单。红叶季与雪季的预约窗口不同，先看时间节点再看具体操作。</p>
+        <div class="steps">
+          <div class="step">
+            <h4>出发前 45 天：锁定红叶季住宿</h4>
+            <p>京都四条河原町与大阪难波两地，周末房价溢价 38% 与 31%。先订可免费取消的房型，再等 14 天内的降价。</p>
+            <div class="tip">核实项：取消政策是否到店前 7 天仍免费。</div>
+          </div>
+          <div class="step">
+            <h4>出发前 30 天：入境手续与 IC 卡</h4>
+            <p>Visit Japan Web 填写后生成二维码，成田第二航站楼改造期间建议截图保存。IC 卡在机场柜台与便利店均可充值，单次 1,000 日元起。</p>
+            <div class="tip">核实项：二维码有效期与护照号是否一致。</div>
+          </div>
+          <div class="step">
+            <h4>出发前 14 天：夜间特别拜观与餐厅</h4>
+            <p>清水寺夜间拜观 11 月 14 日开始，分时票需单独购买。怀石料理预约多要求两人起，单人位可选吧台席。</p>
+            <div class="tip">核实项：夜间票是否含日间入场。</div>
+          </div>
+          <div class="step">
+            <h4>到场当天：先走室内再走户外</h4>
+            <p>京都 11 月日落 16:50 前后，寺院 17:00 关门。把南禅寺、哲学之道放在 14:00 前，博物馆类放在下午。</p>
+            <div class="tip">核实项：寺院最终入场时间通常比关门早 30 分钟。</div>
+          </div>
+          <div class="step">
+            <h4>返程前 1 天：退税与行李</h4>
+            <p>消耗品退税需在离境时携带商品，单店满 5,000 日元起。关西机场高峰安检排队 25—40 分钟，建议起飞前 2 小时 30 分到达。</p>
+            <div class="tip">核实项：退税单是否已贴护照。</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="block" id="faq" aria-labelledby="fqTitle">
+        <div class="block-head">
+          <h2 id="fqTitle">常见问题</h2>
+          <span class="kicker">FAQ</span>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>京都红叶季哪个时间段人最少？</summary>
+            <div class="ans">寺院开门后 30 分钟内最空。清水寺 6:00 开门，7:30 前清水舞台排队 6 分钟；东福寺 8:30 开门，9:00 后通天桥开始限流。周末比工作日多约 4 成客流，<b>周六 10:00 到 14:00 是全天峰值</b>。</div>
+          </details>
+          <details>
+            <summary>关西周游券三天够用吗？</summary>
+            <div class="ans">够用与否取决于跨城次数。三天内大阪、京都、奈良各往返一次，合计约 2,500 日元，低于券价；若加神户一次往返，约 3,180 日元，基本持平。<b>跨城三次以上再买</b>，并注意南海电铁到关西机场不在覆盖范围。</div>
+          </details>
+          <details>
+            <summary>札幌雪季自驾需要注意什么？</summary>
+            <div class="ans">11 月下旬市区路面开始结冰，租车需换雪胎并确认含冰面险。定山溪与支笏湖方向的山道在降雪后限速 40 公里，单程比夏季多 20 分钟。<b>无雪地驾驶经验建议改乘巴士</b>， JR 与中央巴士均有固定班次。</div>
+          </details>
+          <details>
+            <summary>东京地铁一日券值不值得买？</summary>
+            <div class="ans">都内单程地铁 180—210 日元，一日券 600 日元，需要坐满 3 段才回本。浅草—上野—银座—涩谷这种四段行程刚好划算；只在新宿与涩谷之间活动，直接刷 IC 卡更省。<b>按当天段数算，不要按天数买</b>。</div>
+          </details>
+          <details>
+            <summary>温泉旅馆一泊两食怎么挑房型？</summary>
+            <div class="ans">先看晚餐形式：会席在房间用餐的多为老铺，自助餐多为大型旅馆。带露天风吕的客房溢价 40%—60%，公共浴场在 21:00 后较空。<b>单人入住需确认是否加收单人料金</b>，箱根与由布院部分旅馆加收 3,000—5,000 日元。</div>
+          </details>
+          <details>
+            <summary>便利店与药妆店退税有什么区别？</summary>
+            <div class="ans">便利店退税起付线同为 5,000 日元，但多数门店不设免税柜台，需到指定收银台。药妆店免税与折扣常不同时使用，先问折扣券是否覆盖免税商品。<b>消耗品需在 30 天内带出境</b>，开封使用后原则上不予退税。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 用户评论 -->
+      <section class="block" id="reviews" aria-labelledby="reTitle">
+        <div class="block-head">
+          <h2 id="reTitle">用户评论</h2>
+          <span class="kicker">Voices</span>
+          <a class="more" href="/#latest">看本周更新 →</a>
+        </div>
+        <div class="reviews">
+          <div class="review">
+            <div class="who"><div class="avatar">林</div><div><b>林澈</b><span>11 月 7 日 · 大阪 3 晚</span></div></div>
+            <div class="stars" aria-label="评分 4 星">★★★★☆</div>
+            <p>按深度解析里那张表算过，我们三天去了京都两次、奈良一次，买三日券确实省了 1,200 日元左右。吐槽一句：奈良到神户那段真的不该排进第三天，到神户已经 11 点半。</p>
+            <div class="ref">指向上文：关西三日券核算 · 案例时间线</div>
+          </div>
+          <div class="review">
+            <div class="who"><div class="avatar">周</div><div><b>周宛</b><span>11 月 6 日 · 京都 2 晚</span></div></div>
+            <div class="stars" aria-label="评分 5 星">★★★★★</div>
+            <p>清水寺 7:10 到的，舞台前面只有十来个人。八坂神社到南禅寺那段走路比坐巴士快，巴士在四条河原町等了 17 分钟，后来两天全改地铁加步行。</p>
+            <div class="ref">对应条目：京都东山红叶两日走法</div>
+          </div>
+          <div class="review">
+            <div class="who"><div class="avatar">陈</div><div><b>陈戌</b><span>11 月 5 日 · 东京 4 晚</span></div></div>
+            <div class="stars" aria-label="评分 3 星">★★★☆☆</div>
+            <p>东京地铁一日券那段说“四段刚好划算”，我实测浅草到涩谷再回银座只有三段，多买了 30 日元。不算坑，但希望把段数列得更死一点。</p>
+            <div class="ref">指向 FAQ：东京地铁一日券</div>
+          </div>
+          <div class="review">
+            <div class="who"><div class="avatar">吴</div><div><b>吴一苇</b><span>11 月 4 日 · 札幌 3 晚</span></div></div>
+            <div class="stars" aria-label="评分 4 星">★★★★☆</div>
+            <p>定山溪巴士雪天晚了 22 分钟，返程按攻略留了 1 小时缓冲，正好赶上。冰面确实滑，鞋底纹路浅的靴子在小樽运河边站不稳。</p>
+            <div class="ref">对应条目：札幌雪季三日</div>
+          </div>
+          <div class="review">
+            <div class="who"><div class="avatar">何</div><div><b>何苗</b><span>11 月 3 日 · 福冈 2 晚</span></div></div>
+            <div class="stars" aria-label="评分 4 星">★★★★☆</div>
+            <p>中洲屋台 18:20 到，六家摊有三家满座。单人位翻台快，等 15 分钟就坐下了。拉面偏咸，配啤酒刚好，这点没写进路线里。</p>
+            <div class="ref">对应条目：福冈博多与天神</div>
+          </div>
+          <div class="review">
+            <div class="who"><div class="avatar">郑</div><div><b>郑斯匀</b><span>11 月 2 日 · 奈良 1 天</span></div></div>
+            <div class="stars" aria-label="评分 3 星">★★★☆☆</div>
+            <p>近铁奈良站到东大寺步行 18 分钟没错，但带着五岁小孩走了 27 分钟。鹿仙贝买完要立刻收好，否则会被围。攻略里亲子提示那段可以再细一些。</p>
+            <div class="ref">对应条目：奈良一日路线</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 相关资讯 -->
+      <section class="block" id="news" aria-labelledby="nwTitle">
+        <div class="block-head">
+          <h2 id="nwTitle">相关资讯</h2>
+          <span class="kicker">News</span>
+        </div>
+        <div class="news">
+          <article class="news-main">
+            <img src="https://picsum.photos/seed/narita-terminal/800/450" width="800" height="450" loading="lazy" alt="成田机场航站楼入境通道与排队区域示意">
+            <h3>成田第二航站楼入境通道改造，10 月 30 日起部分航班改走第三通道</h3>
+            <p>改造涉及北侧到达区，早班航班集中时段预估排队多 10—15 分钟。接驳巴士与铁路检票口位置不变，机场方面建议预留 2 小时 30 分中转时间。转国内线的旅客需走二次安检，时间另计。</p>
+          </article>
+          <ul class="news-side panel" style="list-style:none;padding:14px 16px;margin:0">
+            <li>
+              <time datetime="2026-11-07">11 月 7 日</time>
+              <b>京都巴士四条河原町站试行分流排队</b>
+              <span>周末 9:00—16:00 设临时引导。</span>
+            </li>
+            <li>
+              <time datetime="2026-11-05">11 月 5 日</time>
+              <b>JR 北海道公布冬季减班计划</b>
+              <span>涉及函馆本线部分区间。</span>
+            </li>
+            <li>
+              <time datetime="2026-11-02">11 月 2 日</time>
+              <b>大阪地铁启用新的 IC 卡充值机</b>
+              <span>主要车站支持境外卡。</span>
+            </li>
+            <li>
+              <time datetime="2026-10-31">10 月 31 日</time>
+              <b>福冈屋台营业时间调整通告</b>
+              <span>中洲部分摊位提前 30 分钟开。</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 相关推荐 -->
+      <section class="block" id="recommend" aria-labelledby="rcTitle">
+        <div class="block-head">
+          <h2 id="rcTitle">相关推荐</h2>
+          <span class="kicker">More</span>
+        </div>
+        <div class="tags">
+          <a href="/#featured">京都岚山半日路线</a>
+          <a href="/#guide">JR Pass 七日券判断表</a>
+          <a href="/#faq">Visit Japan Web 填写步骤</a>
+          <a href="/#featured">大阪难波亲子住宿</a>
+          <a href="/#news">东京樱花季开花预测</a>
+          <a href="/#guide">箱根温泉旅馆接送巴士</a>
+          <a href="/#reviews">日本便利店支付方式</a>
+          <a href="/#rank">札幌雪季酒店进度榜</a>
+          <a href="/#faq">药妆店退税单填写</a>
+          <a href="/#deep">关西周游券核算方法</a>
+        </div>
+      </section>
+
+      <!-- 榜单 -->
+      <section class="block" id="rank" aria-labelledby="rkTitle">
+        <div class="block-head">
+          <h2 id="rkTitle">本周榜单：雪季酒店预订进度</h2>
+          <span class="kicker">Ranking</span>
+          <span class="more" style="color:var(--ink-3)">11 月 3 日房态抓取</span>
+        </div>
+        <ol class="rank">
+          <li><span class="no">01</span><div><b>薄野站周边双人房</b><span>12 月中旬可订率 31%</span></div><em>12 月 12—18 日</em></li>
+          <li><span class="no">02</span><div><b>札幌站南口家庭房</b><span>可订率 24%，多含早餐</span></div><em>12 月 15—22 日</em></li>
+          <li><span class="no">03</span><div><b>定山溪温泉旅馆</b><span>可订率 46%，周末近满</span></div><em>12 月 13—20 日</em></li>
+          <li><span class="no">04</span><div><b>小樽运河侧和室</b><span>可订率 58%，含晚餐</span></div><em>12 月 10—17 日</em></li>
+          <li><span class="no">05</span><div><b>新千岁机场周边商务房</b><span>可订率 72%，无接送</span></div><em>12 月 11—18 日</em></li>
+        </ol>
+        <p class="block-intro" style="margin-top:10px">统计口径为三家连锁官网公开房量，不含民宿平台；家庭房定义为可住 3 人以上房型。</p>
+      </section>
+
+    </div>
+
+    <!-- 侧栏 -->
+    <aside class="side" aria-label="侧栏导航与速览">
+      <div class="side-card side-nav">
+        <h3>本页栏目</h3>
+        <nav aria-label="侧栏栏目导航">
+          <a href="/#overview">领域概览</a>
+          <a href="/#featured">精选路线</a>
+          <a href="/#latest">最新更新</a>
+          <a href="/#channels">城市频道</a>
+          <a href="/#deep">深度解析</a>
+          <a href="/#guide">预约清单</a>
+          <a href="/#faq">常见问题</a>
+          <a href="/#reviews">用户评论</a>
+          <a href="/#news">相关资讯</a>
+          <a href="/#recommend">相关推荐</a>
+          <a href="/#rank">本周榜单</a>
+        </nav>
+      </div>
+      <div class="side-card">
+        <h3>11 月速览</h3>
+        <ul class="side-list">
+          <li><span><b>红叶前线</b></span><em>京都 11/12 前后见顷</em></li>
+          <li><span><b>日落时间</b></span><em>16:50</em></li>
+          <li><span><b>日均步行</b></span><em>11—14 km</em></li>
+          <li><span><b>京都巴士候车</b></span><em>周六 15 分钟+</em></li>
+          <li><span><b>周末房价溢价</b></span><em>+38%</em></li>
+          <li><span><b>关西机场安检</b></span><em>25—40 分钟</em></li>
+        </ul>
+        <p class="side-note">速览数值来自 11 月 3—8 日实地记录与官网公告，仅代表该时间段。</p>
+      </div>
+      <div class="side-card">
+        <h3>下一步</h3>
+        <p class="side-note" style="margin-top:0">先定住哪几晚，再决定买不买区域券。行程表按小时排比按天排更实用。</p>
+        <a class="btn btn-primary" href="/#guide" style="margin-top:10px;width:100%;justify-content:center">打开预约清单</a>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="fbrand">
+          <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+            <rect width="64" height="64" rx="14" fill="#b3202c"/>
+            <circle cx="32" cy="32" r="15" fill="#fff7ef"/>
+            <path d="M32 20c3 4 5 7 5 10a5 5 0 0 1-10 0c0-3 2-6 5-10z" fill="#b3202c"/>
+          </svg>
+          <span>日本旅游攻略</span>
+        </div>
+        <p class="fpos">把行程拆到小时与单段车程，用可核对的票价、排队时长与预约节点替你做取舍。</p>
+        <p class="note">页脚更新时间：2026 年 11 月 8 日。对应正文可核对项包括关西三日券核算、京都巴士周六候车记录与清水寺夜间拜观日期。</p>
+      </div>
+      <div>
+        <h3>路线与频道</h3>
+        <ul>
+          <li><a href="/#featured">东京自由行路线</a></li>
+          <li><a href="/#featured">大阪难波住宿选择</a></li>
+          <li><a href="/#featured">京都红叶季景点</a></li>
+          <li><a href="/#channels">北海道冬季交通</a></li>
+          <li><a href="/#rank">札幌雪季酒店进度榜</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>行前准备</h3>
+        <ul>
+          <li><a href="/#guide">预约节点清单</a></li>
+          <li><a href="/#deep">关西周游券核算</a></li>
+          <li><a href="/#faq">日本入境手续</a></li>
+          <li><a href="/#faq">温泉旅馆一泊两食</a></li>
+          <li><a href="/#faq">便利店与药妆比价</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>阅读与反馈</h3>
+        <ul>
+          <li><a href="/#latest">本周更新</a></li>
+          <li><a href="/#reviews">用户评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#recommend">相关推荐</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 日本旅游攻略 · 内容为示例条目，票价与营业时间以官方公布为准</span>
+      <span>示例数据说明：评论与部分盘点为生成内容，已标注来源类型与日期</span>
+    </div>
+  </div>
+</footer>
+
+<button class="top-btn" id="topBtn" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="m5 14 7-7 7 7"/></svg>
+</button>
+
+<script>
+(function(){
+  var menuBtn=document.getElementById('menuBtn');
+  var nav=document.getElementById('mainNav');
+  if(menuBtn&&nav){
+    menuBtn.addEventListener('click',function(){
+      var open=nav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded',open?'true':'false');
+      menuBtn.setAttribute('aria-label',open?'收起频道菜单':'展开频道菜单');
+    });
+    nav.addEventListener('click',function(e){
+      if(e.target.tagName==='A'){
+        nav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+        menuBtn.setAttribute('aria-label','展开频道菜单');
+      }
+    });
+    document.addEventListener('keydown',function(e){
+      if(e.key==='Escape'&&nav.classList.contains('open')){
+        nav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+        menuBtn.focus();
+      }
+    });
+  }
+
+  var topBtn=document.getElementById('topBtn');
+  function onScroll(){
+    if(window.scrollY>520){topBtn.classList.add('show');}else{topBtn.classList.remove('show');}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+  topBtn.addEventListener('click',function(){
+    var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({top:0,behavior:reduce?'auto':'smooth'});
+  });
+
+  // 侧栏滚动高亮
+  var links=document.querySelectorAll('.side-nav a');
+  var secs=[];
+  links.forEach(function(a){
+    var id=a.getAttribute('href').replace('/#','');
+    var el=document.getElementById(id);
+    if(el){secs.push({id:id,el:el,a:a});}
+  });
+  function spy(){
+    var pos=window.scrollY+150;
+    var cur=secs[0];
+    secs.forEach(function(s){ if(s.el.offsetTop<=pos){cur=s;} });
+    secs.forEach(function(s){ s.a.classList.toggle('active',cur&&s.id===s.id?cur.id===s.id:false); });
+  }
+  if(secs.length){
+    window.addEventListener('scroll',spy,{passive:true});
+    spy();
+  }
+
+  // 本地搜索
+  var q=document.getElementById('q');
+  var fb=document.getElementById('searchFb');
+  if(q&&fb){
+    var idx=[];
+    document.querySelectorAll('h2,h3,summary,.tt,.chan b,.rank b').forEach(function(el){
+      var t=(el.textContent||'').trim();
+      if(t.length>1){idx.push({t:t,el:el});}
+    });
+    function run(){
+      var v=q.value.trim().toLowerCase();
+      if(!v){fb.classList.remove('show');fb.innerHTML='';return;}
+      var hits=idx.filter(function(i){return i.t.toLowerCase().indexOf(v)>-1;}).slice(0,5);
+      fb.classList.add('show');
+      if(!hits.length){
+        fb.innerHTML='没有找到与“<strong>'+esc(q.value.trim())+'</strong>”相关的内容，试试“红叶”“周游券”“奈良”。';
+        return;
+      }
+      fb.innerHTML='<div style="font-size:12px;color:#7a6f68;margin-bottom:6px">找到 '+hits.length+' 条</div>'+
+        hits.map(function(h){return '<a href="#" style="display:block;padding:4px 0;color:#8c1620" data-i="'+idx.indexOf(h)+'">'+esc(h.t)+'</a>';}).join('');
+      fb.querySelectorAll('a').forEach(function(a){
+        a.addEventListener('click',function(e){
+          e.preventDefault();
+          var item=hits[parseInt(a.getAttribute('data-i'),10)];
+          if(item){
+            if(item.el.tagName==='SUMMARY'){item.el.parentElement.setAttribute('open','');}
+            item.el.scrollIntoView({behavior:'smooth',block:'center'});
+            fb.classList.remove('show');
+          }
+        });
+      });
+    }
+    function esc(s){return s.replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+    q.addEventListener('input',run);
+    q.addEventListener('keydown',function(e){if(e.key==='Escape'){q.value='';run();q.blur();}});
+    document.addEventListener('click',function(e){
+      if(!e.target.closest('.search')){fb.classList.remove('show');}
+    });
+  }
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "日本旅游攻略",
+  "inLanguage": "zh-CN",
+  "description": "日本旅游攻略覆盖东京大阪京都札幌等地行程路线、交通票券、季节玩法与住宿取舍。"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "zh-CN",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "京都红叶季哪个时间段人最少？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "寺院开门后 30 分钟内最空。清水寺 6:00 开门，7:30 前清水舞台排队 6 分钟；东福寺 8:30 开门，9:00 后通天桥开始限流。周六 10:00 到 14:00 是全天峰值。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "关西周游券三天够用吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "取决于跨城次数。三天内大阪、京都、奈良各往返一次合计约 2,500 日元，低于券价；加神户一次往返约 3,180 日元，基本持平。跨城三次以上再买，南海电铁到关西机场不在覆盖范围。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "札幌雪季自驾需要注意什么？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "11 月下旬市区路面开始结冰，租车需换雪胎并确认含冰面险。定山溪与支笏湖方向山道降雪后限速 40 公里，单程比夏季多 20 分钟。无雪地驾驶经验建议改乘巴士。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "东京地铁一日券值不值得买？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "都内单程地铁 180—210 日元，一日券 600 日元，需坐满 3 段才回本。浅草—上野—银座—涩谷四段行程刚好划算；只在新宿与涩谷之间活动，直接刷 IC 卡更省。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "温泉旅馆一泊两食怎么挑房型？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "先看晚餐形式：会席在房间用餐的多为老铺，自助餐多为大型旅馆。带露天风吕的客房溢价 40%—60%，公共浴场 21:00 后较空。单人入住需确认是否加收单人料金。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "便利店与药妆店退税有什么区别？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "便利店退税起付线同为 5,000 日元，但多数门店不设免税柜台。药妆店免税与折扣常不同时使用，消耗品需在 30 天内带出境，开封使用后原则上不予退税。"
+      }
+    }
+  ]
+}
+</script>
+</body>
+                               </html>
