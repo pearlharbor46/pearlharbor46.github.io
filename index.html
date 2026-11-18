@@ -1,0 +1,1229 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>吃瓜不打烊166run热点-娱乐八卦热点追踪</title>
+<meta name="description" content="吃瓜不打烊166run热点汇集影视综音娱每日热点，追更明星动态、综艺争议与剧集口碑，梳理时间线与信息层级，附条目评论与核对清单，帮你看懂热搜背后的来龙去脉与可信度。">
+<meta name="keywords" content="吃瓜不打烊166run热点">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c2334d'/%3E%3Cpath d='M20 40c4-10 8-14 12-16 4 2 8 6 12 16z' fill='%23ffe9c7'/%3E%3Ccircle cx='32' cy='22' r='4' fill='%23ffe9c7'/%3E%3C/svg%3E">
+<style>
+:root{
+  --red:#c2334d;
+  --red-deep:#8f1f36;
+  --peach:#fff3e8;
+  --cream:#fdfaf6;
+  --ink:#231b1d;
+  --ink-soft:#5d5154;
+  --line:#e8ddd4;
+  --gold:#c98a2e;
+  --green:#3f7a5b;
+  --radius-s:6px;
+  --radius-m:12px;
+  --radius-l:20px;
+  --shadow-s:0 1px 2px rgba(35,27,29,.07),0 2px 8px rgba(35,27,29,.05);
+  --shadow-m:0 4px 14px rgba(35,27,29,.1);
+  --gap:20px;
+  --font-main:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+}
+body{
+  font-family:var(--font-main);
+  color:var(--ink);
+  background:var(--cream);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--red-deep);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;display:block}
+:target{scroll-margin-top:112px}
+[id]{scroll-margin-top:112px}
+.wrap{width:min(1180px,calc(100% - 40px));margin:0 auto}
+@media(max-width:600px){.wrap{width:calc(100% - 28px)}}
+
+/* ---------- 公告条 ---------- */
+.notice{
+  position:sticky;top:0;z-index:60;
+  background:linear-gradient(90deg,var(--red-deep),var(--red) 55%,#d7586c);
+  color:#fff;font-size:13.5px;
+}
+.notice .wrap{
+  display:flex;align-items:center;gap:12px;
+  padding:8px 0;flex-wrap:wrap;
+}
+.notice .tag{
+  background:rgba(255,255,255,.18);
+  border:1px solid rgba(255,255,255,.45);
+  border-radius:99px;padding:1px 10px;font-size:12px;white-space:nowrap;
+}
+.notice a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.notice .live{width:7px;height:7px;border-radius:50%;background:#ffe9c7;box-shadow:0 0 0 3px rgba(255,233,199,.3);animation:pulse 2.2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 6px rgba(255,233,199,0)}}
+
+/* ---------- 页头 ---------- */
+.header{
+  position:sticky;top:34px;z-index:55;
+  background:rgba(253,250,246,.96);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.header .wrap{display:flex;align-items:center;gap:18px;padding:12px 0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;color:var(--ink);letter-spacing:.5px;white-space:nowrap}
+.brand:hover{text-decoration:none}
+.brand svg{width:36px;height:36px;flex:none}
+.nav-main{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
+.nav-main a{
+  color:var(--ink-soft);font-size:14.5px;padding:6px 10px;border-radius:var(--radius-s);
+  transition:background .18s,color .18s;
+}
+.nav-main a:hover{background:var(--peach);color:var(--red-deep);text-decoration:none}
+.nav-main a.active{color:var(--red-deep);font-weight:700;background:var(--peach)}
+.header-tools{display:flex;align-items:center;gap:8px}
+.btn-search{
+  display:inline-flex;align-items:center;gap:6px;
+  background:var(--red);color:#fff;border:none;cursor:pointer;
+  font-family:inherit;font-size:14px;padding:8px 14px;border-radius:99px;
+  transition:transform .18s,background .18s;
+}
+.btn-search:hover{background:var(--red-deep);transform:translateY(-1px)}
+.menu-toggle{display:none;background:none;border:1px solid var(--line);border-radius:var(--radius-s);padding:7px 12px;font-family:inherit;font-size:14px;color:var(--ink);cursor:pointer}
+.menu-toggle:focus-visible,.btn-search:focus-visible,.nav-main a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+@media(max-width:1040px){
+  .header{top:0}
+  .notice{position:static}
+  .menu-toggle{display:inline-block}
+  .nav-main{
+    display:none;position:absolute;left:0;right:0;top:100%;
+    background:var(--cream);border-bottom:1px solid var(--line);
+    padding:10px 20px 16px;flex-direction:column;gap:2px;
+    box-shadow:var(--shadow-m);
+  }
+  .nav-main.open{display:flex}
+  .nav-main a{padding:9px 10px;font-size:15px}
+  .header-tools{margin-left:auto}
+}
+@media(max-width:520px){
+  .btn-search span{display:none}
+  .brand{font-size:16px}
+}
+
+/* 搜索面板 */
+.search-panel{display:none;padding:16px 0;border-top:1px dashed var(--line)}
+.search-panel.open{display:block}
+.search-box{display:flex;gap:8px}
+.search-box input{
+  flex:1;font-family:inherit;font-size:15px;padding:10px 14px;
+  border:1px solid var(--line);border-radius:var(--radius-s);background:#fff;color:var(--ink);
+}
+.search-box input:focus{outline:2px solid var(--gold);outline-offset:1px}
+.search-result{margin-top:12px;font-size:14px;color:var(--ink-soft)}
+.search-result ul{list-style:none;display:grid;gap:6px}
+.search-result li{border-left:3px solid var(--red);padding:4px 10px;background:#fff;border-radius:0 6px 6px 0}
+.search-result li b{color:var(--ink)}
+
+/* ---------- 首屏 ---------- */
+.hero{position:relative;padding:48px 0 40px;overflow:hidden;background:
+  radial-gradient(circle at 82% 12%,rgba(201,138,46,.13),transparent 42%),
+  radial-gradient(circle at 8% 78%,rgba(194,51,77,.1),transparent 45%),
+  var(--cream);
+}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center}
+.hero-kicker{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--red-deep);background:var(--peach);border:1px solid #f0d9c6;border-radius:99px;padding:4px 14px;margin-bottom:16px}
+.hero h1{font-size:clamp(30px,4.4vw,50px);line-height:1.18;letter-spacing:-.5px;font-weight:900}
+.hero h1 .accent{color:var(--red);position:relative;white-space:nowrap}
+.hero h1 .accent::after{content:"";position:absolute;left:0;right:0;bottom:4px;height:9px;background:rgba(201,138,46,.3);border-radius:4px;z-index:-1}
+.hero-desc{margin-top:18px;font-size:16.5px;color:var(--ink-soft);max-width:540px}
+.hero-desc b{color:var(--ink)}
+.hero-actions{display:flex;gap:12px;margin-top:26px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--red);color:#fff;padding:12px 22px;border-radius:var(--radius-s);
+  font-size:15px;font-weight:600;transition:transform .18s,box-shadow .18s,background .18s;
+  border:1px solid transparent;
+}
+.btn:hover{text-decoration:none;background:var(--red-deep);transform:translateY(-2px);box-shadow:var(--shadow-m)}
+.btn.ghost{background:#fff;color:var(--red-deep);border-color:#eccfc7}
+.btn.ghost:hover{background:var(--peach);box-shadow:var(--shadow-s)}
+.hero-stats{display:flex;gap:26px;margin-top:30px;flex-wrap:wrap}
+.hero-stats div{font-size:13px;color:var(--ink-soft)}
+.hero-stats strong{display:block;font-size:22px;color:var(--ink);font-weight:800;letter-spacing:-.3px}
+
+/* 首屏原创构图 */
+.hero-art{position:relative;height:340px}
+.hero-art .melon{
+  position:absolute;inset:0;margin:auto;width:100%;height:100%;
+}
+.art-chip{
+  position:absolute;background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);
+  box-shadow:var(--shadow-s);padding:8px 12px;font-size:12.5px;color:var(--ink-soft);
+  display:flex;align-items:center;gap:7px;
+}
+.art-chip i{width:8px;height:8px;border-radius:50%;background:var(--red);flex:none}
+.art-chip.c1{top:6%;left:2%}
+.art-chip.c2{top:30%;right:0}
+.art-chip.c3{bottom:20%;left:0}
+.art-chip.c4{bottom:2%;right:6%}
+.art-chip.c2 i{background:var(--gold)}
+.art-chip.c3 i{background:var(--green)}
+@media(max-width:900px){
+  .hero .wrap{grid-template-columns:1fr;gap:30px}
+  .hero-art{height:260px;order:2}
+  .hero{padding:32px 0 28px}
+}
+
+/* ---------- 主内容 ---------- */
+.main{padding:12px 0 60px}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:34px;align-items:start}
+@media(max-width:1040px){
+  .layout{grid-template-columns:1fr}
+  .sidebar{order:2}
+  .content{order:1}
+}
+section.block{padding:34px 0;border-top:1px solid var(--line)}
+section.block:first-of-type{border-top:none;padding-top:8px}
+.sec-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sec-head h2{font-size:23px;letter-spacing:-.3px;font-weight:800}
+.sec-head .sub{font-size:13px;color:var(--ink-soft)}
+.sec-head .more{margin-left:auto;font-size:13.5px;color:var(--red-deep);white-space:nowrap}
+.lead{color:var(--ink-soft);font-size:15.5px;margin-bottom:20px;max-width:820px}
+
+/* 概览 */
+.overview-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+@media(max-width:760px){.overview-grid{grid-template-columns:repeat(2,1fr)}}
+.ov-card{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);
+  padding:16px;transition:transform .18s,box-shadow .18s;
+}
+.ov-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-m)}
+.ov-card .num{font-size:26px;font-weight:900;color:var(--red);letter-spacing:-.5px}
+.ov-card .lbl{font-size:14px;font-weight:700;margin-top:2px}
+.ov-card p{font-size:12.5px;color:var(--ink-soft);margin-top:4px;line-height:1.6}
+
+/* 精选卡片 */
+.pick-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+@media(max-width:700px){.pick-grid{grid-template-columns:1fr}}
+.pick-card{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);
+  overflow:hidden;display:flex;flex-direction:column;
+  transition:transform .18s,box-shadow .18s;
+}
+.pick-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-m)}
+.pick-card img{width:100%;height:170px;object-fit:cover}
+.pick-card .body{padding:15px 17px 17px;display:flex;flex-direction:column;gap:8px;flex:1}
+.pick-card .cat{font-size:12px;color:var(--red-deep);font-weight:700;letter-spacing:.4px}
+.pick-card h3{font-size:17px;line-height:1.5}
+.pick-card p{font-size:13.5px;color:var(--ink-soft);flex:1}
+.meta{font-size:12px;color:#8d8184;display:flex;gap:10px;flex-wrap:wrap}
+
+/* 最新更新列表 */
+.update-list{display:grid;gap:0;border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;background:#fff}
+.update-item{display:grid;grid-template-columns:92px minmax(0,1fr) auto;gap:14px;padding:14px 18px;border-top:1px solid var(--line);align-items:start}
+.update-item:first-child{border-top:none}
+.update-item .time{font-size:12.5px;color:var(--ink-soft);font-variant-numeric:tabular-nums;padding-top:2px}
+.update-item h3{font-size:15px;font-weight:700;line-height:1.5}
+.update-item p{font-size:13px;color:var(--ink-soft);margin-top:2px}
+.update-item .src{font-size:12px;color:#8d8184;white-space:nowrap;padding-top:3px}
+@media(max-width:640px){
+  .update-item{grid-template-columns:1fr;gap:4px}
+  .update-item .src{white-space:normal}
+}
+
+/* 分类入口 */
+.cat-index{display:flex;flex-wrap:wrap;gap:10px}
+.cat-index a{
+  background:#fff;border:1px solid var(--line);border-radius:99px;
+  padding:7px 16px;font-size:14px;color:var(--ink);
+  transition:background .18s,border-color .18s,color .18s,transform .18s;
+}
+.cat-index a:hover{background:var(--peach);border-color:#eccfc7;color:var(--red-deep);text-decoration:none;transform:translateY(-2px)}
+.cat-index a span{color:#a3979a;font-size:12px;margin-left:3px}
+
+/* 深度解析 */
+.deep{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-l);
+  padding:clamp(20px,3vw,36px);
+}
+.deep .flag{display:inline-block;font-size:12px;font-weight:700;color:#fff;background:var(--red-deep);padding:2px 10px;border-radius:4px;letter-spacing:.5px}
+.deep h2{font-size:24px;margin:12px 0 6px;letter-spacing:-.3px}
+.deep .standfirst{font-size:15px;color:var(--ink-soft);margin-bottom:22px}
+.deep h3{font-size:18px;margin:26px 0 8px;padding-left:12px;border-left:4px solid var(--gold);line-height:1.5}
+.deep p{font-size:15.5px;margin-bottom:12px}
+.deep p b{color:var(--red-deep)}
+.claim{
+  background:var(--peach);border:1px solid #f0d9c6;border-left:5px solid var(--red);
+  border-radius:0 var(--radius-m) var(--radius-m) 0;padding:16px 18px;margin:16px 0;
+}
+.claim .k{font-size:12px;font-weight:800;color:var(--red-deep);letter-spacing:.6px;display:block;margin-bottom:4px}
+.claim p{margin:0;font-size:15px}
+table.cmp{width:100%;border-collapse:collapse;margin:14px 0 6px;font-size:14px;background:#fff}
+table.cmp caption{caption-side:top;text-align:left;font-size:13px;color:var(--ink-soft);padding-bottom:6px}
+table.cmp th,table.cmp td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
+table.cmp th{background:#fbf4ec;font-weight:700;font-size:13px}
+.checklist{list-style:none;display:grid;gap:8px;margin:10px 0 4px}
+.checklist li{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);
+  padding:10px 14px 10px 40px;position:relative;font-size:14.5px;
+}
+.checklist li::before{
+  content:"✓";position:absolute;left:13px;top:9px;color:var(--green);font-weight:900;
+}
+.checklist li em{font-style:normal;color:var(--red-deep);font-weight:700}
+
+/* 体验指南 步骤 */
+.steps{counter-reset:step;display:grid;gap:14px}
+.step{
+  counter-increment:step;background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius-m);padding:16px 18px 16px 64px;position:relative;
+}
+.step::before{
+  content:counter(step);position:absolute;left:16px;top:15px;
+  width:32px;height:32px;border-radius:50%;background:var(--peach);color:var(--red-deep);
+  font-weight:900;display:grid;place-items:center;font-size:15px;border:1px solid #f0d9c6;
+}
+.step h3{font-size:15.5px;margin-bottom:3px}
+.step p{font-size:13.5px;color:var(--ink-soft)}
+
+/* FAQ */
+.faq{display:grid;gap:10px}
+.faq details{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);
+  overflow:hidden;
+}
+.faq summary{
+  cursor:pointer;list-style:none;padding:14px 44px 14px 18px;position:relative;
+  font-size:15px;font-weight:700;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:16px;top:12px;font-size:19px;color:var(--red);
+  transition:transform .2s;font-weight:400;
+}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq summary:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+.faq .ans{padding:0 18px 16px;font-size:14px;color:var(--ink-soft)}
+.faq .ans b{color:var(--ink)}
+
+/* 评论 */
+.cmt-list{display:grid;gap:12px}
+.cmt{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);
+  padding:14px 16px;
+}
+.cmt .who{display:flex;align-items:center;gap:9px;margin-bottom:6px}
+.avatar{
+  width:30px;height:30px;border-radius:50%;display:grid;place-items:center;
+  font-size:12px;font-weight:800;color:#fff;flex:none;
+}
+.cmt .name{font-size:13.5px;font-weight:700}
+.cmt .when{font-size:12px;color:#8d8184;margin-left:auto;white-space:nowrap}
+.cmt p{font-size:14px;color:var(--ink)}
+.cmt p.tagline{font-size:13px;color:var(--ink-soft);margin-top:5px;background:#fbf4ec;border-radius:var(--radius-s);padding:6px 10px}
+.cmt.good{border-left:4px solid var(--green)}
+.cmt.bad{border-left:4px solid #9b8f92}
+.cmt.hot{border-left:4px solid var(--gold)}
+
+/* 资讯 */
+.news-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(max-width:700px){.news-grid{grid-template-columns:1fr}}
+.news-item{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);padding:15px 17px;
+  transition:box-shadow .18s,transform .18s;
+}
+.news-item:hover{box-shadow:var(--shadow-s);transform:translateY(-2px)}
+.news-item .day{font-size:12px;color:var(--red-deep);font-weight:700;letter-spacing:.4px}
+.news-item h3{font-size:15px;margin:3px 0 4px;line-height:1.55}
+.news-item p{font-size:13px;color:var(--ink-soft)}
+
+/* 推荐标签 */
+.tags{display:flex;flex-wrap:wrap;gap:9px}
+.tags a{
+  font-size:13.5px;background:var(--peach);color:var(--red-deep);
+  border:1px solid #f0d9c6;border-radius:99px;padding:5px 14px;
+  transition:background .18s,transform .18s;
+}
+.tags a:hover{background:#ffe4cf;text-decoration:none;transform:translateY(-2px)}
+
+/* 时间线 */
+.timeline{position:relative;margin-left:8px;padding-left:26px;border-left:2px solid #eccfc7}
+.timeline .tl{position:relative;padding-bottom:18px}
+.timeline .tl:last-child{padding-bottom:0}
+.timeline .tl::before{
+  content:"";position:absolute;left:-33px;top:6px;width:12px;height:12px;
+  border-radius:50%;background:var(--red);border:3px solid var(--cream);
+  box-shadow:0 0 0 1px #eccfc7;
+}
+.timeline .tl time{font-size:12.5px;font-weight:700;color:var(--red-deep)}
+.timeline .tl h3{font-size:15px;margin:1px 0 3px}
+.timeline .tl p{font-size:13.5px;color:var(--ink-soft)}
+
+/* 对照面板（事实/回应/转述/推测） */
+.layers{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(max-width:700px){.layers{grid-template-columns:1fr}}
+.layer{
+  border-radius:var(--radius-m);padding:14px 16px;border:1px solid var(--line);background:#fff;
+}
+.layer .k{font-size:12px;font-weight:800;letter-spacing:.6px;display:inline-block;padding:1px 9px;border-radius:4px;margin-bottom:6px}
+.layer.fact{border-top:4px solid var(--green)}
+.layer.fact .k{background:#e3f0e8;color:var(--green)}
+.layer.resp{border-top:4px solid var(--gold)}
+.layer.resp .k{background:#f8edd8;color:#8a5d10}
+.layer.quote{border-top:4px solid #7a7092}
+.layer.quote .k{background:#ece9f2;color:#5b5177}
+.layer.spec{border-top:4px solid #b1a4a7}
+.layer.spec .k{background:#efeaeb;color:#6d6164}
+.layer p{font-size:13.5px;color:var(--ink-soft)}
+.layer p b{color:var(--ink)}
+
+/* 侧栏 */
+.sidebar{display:grid;gap:18px;position:sticky;top:116px}
+@media(max-width:1040px){.sidebar{position:static;order:2}}
+.side-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);padding:16px}
+.side-card h2{font-size:15.5px;margin-bottom:12px;letter-spacing:-.2px;display:flex;align-items:center;gap:8px}
+.side-card h2::before{content:"";width:4px;height:15px;background:var(--red);border-radius:2px}
+.side-nav{list-style:none;display:grid;gap:2px}
+.side-nav a{
+  display:block;font-size:14px;color:var(--ink-soft);padding:6px 10px;border-radius:var(--radius-s);
+  border-left:3px solid transparent;transition:background .16s,color .16s,border-color .16s;
+}
+.side-nav a:hover{background:var(--peach);color:var(--red-deep);text-decoration:none}
+.side-nav a.on{background:var(--peach);color:var(--red-deep);font-weight:700;border-left-color:var(--red)}
+.rank{list-style:none;display:grid;gap:9px;counter-reset:rk}
+.rank li{display:grid;grid-template-columns:22px 1fr;gap:8px;font-size:13.5px;align-items:start;counter-increment:rk}
+.rank li::before{
+  content:counter(rk);font-weight:900;font-size:13px;color:#a3979a;
+  text-align:center;line-height:1.5;
+}
+.rank li:nth-child(-n+3)::before{color:var(--red)}
+.rank a{color:var(--ink)}
+.rank small{display:block;color:#8d8184;font-size:12px}
+.side-note{font-size:12.5px;color:var(--ink-soft);background:var(--peach);border-radius:var(--radius-s);padding:10px 12px;line-height:1.65}
+
+/* 页尾 */
+.footer{background:#231b1d;color:#cfc4c6;padding:44px 0 28px;font-size:13.5px}
+.footer .top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+@media(max-width:860px){.footer .top{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.footer .top{grid-template-columns:1fr}}
+.footer .fbrand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:800;font-size:17px;margin-bottom:10px}
+.footer .fbrand svg{width:32px;height:32px}
+.footer p{line-height:1.7}
+.footer h3{font-size:14px;color:#fff;margin-bottom:10px;letter-spacing:.3px}
+.footer ul{list-style:none;display:grid;gap:7px}
+.footer ul a{color:#cfc4c6;font-size:13.5px}
+.footer ul a:hover{color:#fff}
+.footer .bottom{
+  margin-top:28px;padding-top:16px;border-top:1px solid #3b3134;
+  display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between;font-size:12.5px;color:#9a8d90;
+}
+.sample-note{font-size:12px;color:#a89a9d;margin-top:10px;line-height:1.7}
+
+/* 回到顶部 */
+#toTop{
+  position:fixed;right:20px;bottom:24px;z-index:70;
+  width:44px;height:44px;border-radius:50%;border:1px solid var(--line);
+  background:#fff;color:var(--red-deep);font-size:19px;cursor:pointer;
+  box-shadow:var(--shadow-m);display:none;place-items:center;
+  transition:transform .18s,opacity .18s;
+}
+#toTop.show{display:grid}
+#toTop:hover{transform:translateY(-3px)}
+@media(max-width:600px){#toTop{right:14px;bottom:16px;width:40px;height:40px}}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="notice" id="notice" role="region" aria-label="站点公告">
+  <div class="wrap">
+    <span class="live" aria-hidden="true"></span>
+    <span class="tag">吃瓜不打烊166run热点</span>
+    <span>11月8日 08:40 更新：《雾港来信》第18集夜戏片段二次剪辑版上线，平台方<strong>星澜视频</strong>于07:20回应称“剪辑为配合电视版时长的常规操作”。</span>
+    <a href="/#latest">查看更新明细</a>
+  </div>
+</div>
+
+<header class="header" id="header">
+  <div class="wrap">
+    <a class="brand" href="/#top" aria-label="吃瓜不打烊166run热点 首页">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <rect width="64" height="64" rx="14" fill="#c2334d"/>
+        <path d="M14 42c5-13 11-18 18-21 7 3 13 8 18 21z" fill="#ffe9c7"/>
+        <circle cx="32" cy="17" r="5" fill="#ffe9c7"/>
+        <circle cx="24" cy="46" r="2.2" fill="#8f1f36"/>
+        <circle cx="32" cy="50" r="2.2" fill="#8f1f36"/>
+        <circle cx="40" cy="46" r="2.2" fill="#8f1f36"/>
+      </svg>
+      <span>吃瓜不打烊166run热点</span>
+    </a>
+    <nav class="nav-main" id="navMain" aria-label="主题导航">
+      <a href="/#overview">领域概览</a>
+      <a href="/#picks">精选推荐</a>
+      <a href="/#latest">最新更新</a>
+      <a href="/#cats">分类入口</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#faq">常见问答</a>
+      <a href="/#rank">热议榜</a>
+    </nav>
+    <div class="header-tools">
+      <button class="btn-search" id="searchBtn" aria-expanded="false" aria-controls="searchPanel">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <span>搜条目</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navMain">菜单</button>
+    </div>
+  </div>
+  <div class="search-panel" id="searchPanel">
+    <div class="wrap">
+      <div class="search-box">
+        <input type="search" id="searchInput" placeholder="输入剧名、综艺、艺人或事件关键词，如：雾港来信" aria-label="站内搜索">
+        <button class="btn" id="searchGo" type="button">查找</button>
+      </div>
+      <div class="search-result" id="searchResult" aria-live="polite">可搜索条目共 46 条，涵盖剧集、综艺、音乐现场、艺人动态四类。</div>
+    </div>
+  </div>
+</header>
+
+<main class="main" id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="hero-kicker">娱乐热点 · 每日分时段追踪</span>
+        <h1>吃瓜不打烊166run热点</h1>
+        <p class="hero-desc">把热搜里断成几截的事接回完整时间线：<b>《雾港来信》剪辑争议</b>、<b>《声浪计划》第三轮淘汰名单</b>、<b>歌手祁野巡演加场</b>，每条都标注信息来源与核对状态，能查的写明平台和账号，查不到的单独列出。</p>
+        <div class="hero-actions">
+          <a class="btn" href="/#deep">读今日深度解析</a>
+          <a class="btn ghost" href="/#latest">看最近 24 小时更新</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>46</strong>在追条目</div>
+          <div><strong>12</strong>内容频道</div>
+          <div><strong>11-08</strong>数据更新日</div>
+          <div><strong>3</strong>处待核实标注</div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg class="melon" viewBox="0 0 420 340" role="presentation">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ffe9c7"/>
+              <stop offset="1" stop-color="#f6d4a8"/>
+            </linearGradient>
+            <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#c2334d"/>
+              <stop offset="1" stop-color="#8f1f36"/>
+            </linearGradient>
+          </defs>
+          <circle cx="210" cy="170" r="128" fill="url(#g1)" stroke="#e8ddd4" stroke-width="2"/>
+          <path d="M210 42a128 128 0 0 1 0 256z" fill="url(#g2)" opacity=".92"/>
+          <path d="M210 42a128 128 0 0 0 0 256z" fill="#fdfaf6" opacity=".55"/>
+          <g fill="#8f1f36">
+            <ellipse cx="240" cy="118" rx="9" ry="13" transform="rotate(-24 240 118)"/>
+            <ellipse cx="268" cy="168" rx="9" ry="13" transform="rotate(8 268 168)"/>
+            <ellipse cx="246" cy="218" rx="9" ry="13" transform="rotate(30 246 218)"/>
+            <ellipse cx="196" cy="204" rx="8" ry="12" transform="rotate(-16 196 204)"/>
+            <ellipse cx="192" cy="112" rx="8" ry="12" transform="rotate(46 192 112)"/>
+          </g>
+          <circle cx="210" cy="170" r="150" fill="none" stroke="#eccfc7" stroke-dasharray="3 9" stroke-width="1.6"/>
+        </svg>
+        <div class="art-chip c1"><i></i>剧集口碑 8.6</div>
+        <div class="art-chip c2"><i></i>综艺争议 2 条</div>
+        <div class="art-chip c3"><i></i>演唱会加场</div>
+        <div class="art-chip c4"><i></i>待核实 3 处</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap layout">
+    <div class="content">
+
+      <!-- 领域概览 -->
+      <section class="block" id="overview" aria-labelledby="h-overview">
+        <div class="sec-head">
+          <h2 id="h-overview">领域概览</h2>
+          <span class="sub">截至 2026-11-08 08:40</span>
+        </div>
+        <p class="lead">在追条目分属剧集、综艺、音乐现场、艺人社交动态四类。剧集看平台更新节奏与口碑曲线，综艺看赛制节点与票数口径，音乐现场看场馆批复与加场公告，社交动态看账号原文与删除时间。四类信息更新密度不同，核对顺序也不同。</p>
+        <div class="overview-grid">
+          <div class="ov-card">
+            <div class="num">9</div>
+            <div class="lbl">在播剧集</div>
+            <p>《雾港来信》《长夏未晚》等 9 部，星澜视频与云鲸 TV 各占 4 部与 3 部。</p>
+          </div>
+          <div class="ov-card">
+            <div class="num">5</div>
+            <div class="lbl">在录综艺</div>
+            <p>《声浪计划》进入第三轮淘汰，《山野厨房》第二季定档 11 月 14 日。</p>
+          </div>
+          <div class="ov-card">
+            <div class="num">7</div>
+            <div class="lbl">巡演与live</div>
+            <p>祁野八城巡演，杭州站 11 月 6 日开票 4 分钟售罄，加场待批复。</p>
+          </div>
+          <div class="ov-card">
+            <div class="num">3</div>
+            <div class="lbl">待核实条目</div>
+            <p>含 1 条非官方截图、1 条工作室未回应传闻、1 条节目组口误澄清。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 精选内容推荐 -->
+      <section class="block" id="picks" aria-labelledby="h-picks">
+        <div class="sec-head">
+          <h2 id="h-picks">精选内容推荐</h2>
+          <a class="more" href="/#latest">更多更新 →</a>
+        </div>
+        <div class="pick-grid">
+          <article class="pick-card">
+            <img src="https://picsum.photos/seed/wugang-ep18/640/340" width="640" height="340" loading="lazy" alt="《雾港来信》第18集夜戏场景截图占位">
+            <div class="body">
+              <span class="cat">剧集 · 剪辑争议</span>
+              <h3>《雾港来信》第18集双版本对比：少了 47 秒的夜戏</h3>
+              <p>电视版与流媒体版在第 31 分钟处出现差异，平台称时长调整，导演组一名剪辑师在 11 月 7 日晚的直播中否认“临时删戏”。</p>
+              <div class="meta"><span>11-08 07:20</span><span>星澜视频</span></div>
+            </div>
+          </article>
+          <article class="pick-card">
+            <img src="https://picsum.photos/seed/shenglang-r3/640/340" width="640" height="340" loading="lazy" alt="《声浪计划》第三轮竞演舞台占位">
+            <div class="body">
+              <span class="cat">综艺 · 赛制节点</span>
+              <h3>《声浪计划》第三轮淘汰：现场票与云端票差 11 票</h3>
+              <p>选手林知夏以现场票 342、云端票 331 止步第九，节目组 11 月 7 日 23:10 公布分项票数，这是本季首次公开拆票。</p>
+              <div class="meta"><span>11-07 23:10</span><span>声浪计划官微</span></div>
+            </div>
+          </article>
+          <article class="pick-card">
+            <img src="https://picsum.photos/seed/qye-hangzhou/640/340" width="640" height="340" loading="lazy" alt="祁野杭州巡演场馆外景占位">
+            <div class="body">
+              <span class="cat">音乐现场 · 加场</span>
+              <h3>祁野杭州站 4 分钟售罄，加场申请卡在场馆档期</h3>
+              <p>主办方“回声现场”11 月 6 日 20:00 开票，大麦页面显示 4 分 12 秒售罄。加场需等黄龙体育馆 11 月 23 日档期确认。</p>
+              <div class="meta"><span>11-06 20:12</span><span>回声现场</span></div>
+            </div>
+          </article>
+          <article class="pick-card">
+            <img src="https://picsum.photos/seed/shanye-s2/640/340" width="640" height="340" loading="lazy" alt="《山野厨房》第二季录制地村落占位">
+            <div class="body">
+              <span class="cat">综艺 · 定档</span>
+              <h3>《山野厨房》第二季定档 11 月 14 日，录制地换到丽水松阳</h3>
+              <p>首季在安吉录制，第二季 10 月 28 日转场松阳，常驻嘉宾三人保留、两人更换，节目组未说明更换原因。</p>
+              <div class="meta"><span>11-05 10:30</span><span>云鲸 TV</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 最新更新 -->
+      <section class="block" id="latest" aria-labelledby="h-latest">
+        <div class="sec-head">
+          <h2 id="h-latest">最新更新</h2>
+          <span class="sub">按发布时间倒序，含来源账号</span>
+        </div>
+        <div class="update-list">
+          <div class="update-item">
+            <span class="time">今天 08:40</span>
+            <div>
+              <h3>星澜视频客服回应第18集时长差异</h3>
+              <p>客服口径为“电视版与流媒体版时长不同属常规”，未提及具体删改内容。</p>
+            </div>
+            <span class="src">星澜视频客服</span>
+          </div>
+          <div class="update-item">
+            <span class="time">今天 07:20</span>
+            <div>
+              <h3>平台方发布 132 字说明</h3>
+              <p>说明中“配合电视版时长”出现一次，“常规操作”出现一次，未提供剪辑版本号。</p>
+            </div>
+            <span class="src">星澜视频官微</span>
+          </div>
+          <div class="update-item">
+            <span class="time">昨天 23:10</span>
+            <div>
+              <h3>《声浪计划》公布第三轮分项票数</h3>
+              <p>现场票、云端票、专业评审票三栏并列，林知夏总票 1038，距晋级线差 11 票。</p>
+            </div>
+            <span class="src">声浪计划官微</span>
+          </div>
+          <div class="update-item">
+            <span class="time">昨天 21:34</span>
+            <div>
+              <h3>剪辑师“老刀”直播回应</h3>
+              <p>自称参与第 14 至 20 集粗剪，称夜戏“拍了两条，用的不是被传的那条”。</p>
+            </div>
+            <span class="src">抖音 · 老刀剪片</span>
+          </div>
+          <div class="update-item">
+            <span class="time">11-07 18:05</span>
+            <div>
+              <h3>《长夏未晚》大结局点映场次加开</h3>
+              <p>北京、成都、广州三地各加 2 场，点映时间为 11 月 11 日 19:30。</p>
+            </div>
+            <span class="src">云鲸 TV 票务页</span>
+          </div>
+          <div class="update-item">
+            <span class="time">11-06 20:12</span>
+            <div>
+              <h3>祁野杭州站开票售罄</h3>
+              <p>大麦页面显示售罄时间 4 分 12 秒，主办方称“加场在走流程”。</p>
+            </div>
+            <span class="src">回声现场</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="block" id="cats" aria-labelledby="h-cats">
+        <div class="sec-head">
+          <h2 id="h-cats">分类入口</h2>
+          <span class="sub">括号内为在追条目数</span>
+        </div>
+        <div class="cat-index">
+          <a href="/#picks">剧集剪辑争议<span>4</span></a>
+          <a href="/#latest">综艺赛制与票数<span>5</span></a>
+          <a href="/#rank">演唱会加场与开票<span>7</span></a>
+          <a href="/#deep">演员番位与合约<span>3</span></a>
+          <a href="/#news">平台定档与撤档<span>6</span></a>
+          <a href="/#comments">粉丝与片方沟通<span>4</span></a>
+          <a href="/#tags">音乐节阵容变动<span>3</span></a>
+          <a href="/#guide">看剧避坑与版本选择<span>5</span></a>
+          <a href="/#layers">传闻核实与辟谣<span>4</span></a>
+          <a href="/#timeline">事件时间线复盘<span>5</span></a>
+          <a href="/#faq">艺人工作室声明解读<span>3</span></a>
+          <a href="/#picks">短剧与微短剧上新<span>6</span></a>
+        </div>
+      </section>
+
+      <!-- 深度解析 -->
+      <section class="block" id="deep" aria-labelledby="h-deep">
+        <article class="deep">
+          <span class="flag">深度解析</span>
+          <h2 id="h-deep">剪掉的 47 秒，与一场没有版本的争议</h2>
+          <p class="standfirst">截至 11 月 8 日 09:00，围绕《雾港来信》第 18 集的公开材料共 5 份：平台说明 1 份、客服回应 1 次、剪辑师直播 1 场、剧粉逐帧对比 1 份、剧组内部人员口头转述 1 条。这 5 份材料互相不覆盖，任何一方的结论都无法单独成立。</p>
+
+          <h3>差异出现在第 31 分 12 秒，两次版本的口型对不上</h3>
+          <p>剧粉账号“雾港口型组”在 11 月 7 日 22:06 发布逐帧对比，标注电视版第 18 集 31:12 处，角色穆青说“我不走”时口型为三字，流媒体版同一画面只剩一个“走”字镜头，随后切至空镜。对比文档列出 6 处差异，总时长 47 秒，其中 3 处为台词删除、2 处为镜头顺序调整、1 处为配乐替换。</p>
+          <div class="claim">
+            <span class="k">可供引用的判断</span>
+            <p><b>这 47 秒大概率不是常规时长压缩。</b>常规压缩一般成段剪，不会在单个镜头内部改口型。三次台词删除都集中在穆青与养父的对手戏，属于同一条叙事线，剪法带有指向性。该判断可反驳：若平台能给出两版剪辑工程文件的时间码，且证明删除起于电视版送审，则本判断不成立。</p>
+          </div>
+
+          <h3>平台说明与剪辑师说法，在“谁决定的”上正面冲突</h3>
+          <table class="cmp">
+            <caption>两份公开说法对照（信息截至 11-08 09:00）</caption>
+            <thead>
+              <tr><th>问题</th><th>星澜视频 11-07 07:20 说明</th><th>剪辑师“老刀”11-07 21:34 直播</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>删除原因</td><td>配合电视版时长的常规操作</td><td>没有收到删戏指令，粗剪里两条夜戏都在</td></tr>
+              <tr><td>决策时间</td><td>未提及</td><td>“定剪是 9 月中，之后我没参与”</td></tr>
+              <tr><td>版本数量</td><td>未提供版本号</td><td>称见过三版，其中一版 48 分钟</td></tr>
+              <tr><td>是否承认差异</td><td>承认时长不同</td><td>承认内容不同，否认自己删</td></tr>
+            </tbody>
+          </table>
+          <p>两份说法并非完全对立：平台说“时长”，剪辑师说“内容”，两者可以同时为真——先改内容再对齐时长，时长变化只是结果。冲突点在决策归属，平台未指明由谁执行，剪辑师明确否认参与定剪后的修改。要判断责任方，缺的是第 18 集定剪之后的修改记录。</p>
+
+          <h3>把“是否值得追”拆成四个可核对项</h3>
+          <p>争议之外，观众更关心现在还能不能看。以下四项都能自行核对，不依赖任何一方表态：</p>
+          <ul class="checklist">
+            <li><em>版本号</em>：流媒体版片头序列号末尾为 V2，电视版无序列号；打开播放页进度条旁的“版本”按钮可查。</li>
+            <li><em>时长</em>：流媒体版 44:52，电视版 45:39，差值 47 秒，与逐帧对比数字一致。</li>
+            <li><em>字幕</em>：两版穆青台词字幕均保留“我不走”，仅画面被剪，说明后期未统一。</li>
+            <li><em>下集预告</em>：第 19 集预告中出现的夜戏片段，正是第 18 集被删的镜头之一。</li>
+          </ul>
+          <p>第三项是本次争议里最硬的一处细节：字幕与画面不同步，通常意味着修改发生在字幕压制之后、成片输出之前。这一顺序能缩小排查范围，但不能直接指认操作者。第四项则说明被删镜头并未作废，仍被下一集预告使用，与“内容违规删除”的说法相斥。</p>
+
+          <h3>对剧集后续的实际影响，比对错更值得看</h3>
+          <p>《雾港来信》共 24 集，第 18 集处于穆青身世线的收束段。被删的三段台词里，有两段交代养父的旧案时间，若后续不再补叙，第 21 集法庭戏的动机链条会断。导演组一名成员在 11 月 5 日的群访中提过“后半段会回扣”，但未指明是否用闪回补。真正可观察的节点是 11 月 13 日第 21 集上线后，观众能否从现有镜头还原旧案年份。能还原，说明删改有替代方案；不能，说明这次剪辑留下叙事缺口。</p>
+        </article>
+      </section>
+
+      <!-- 体验指南 -->
+      <section class="block" id="guide" aria-labelledby="h-guide">
+        <div class="sec-head">
+          <h2 id="h-guide">体验指南</h2>
+          <span class="sub">从看到一个热搜到判断可信度</span>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <h3>先确认条目对应哪个具体作品</h3>
+            <p>热搜词常省略作品名，例如“夜戏被删”同时指向三部在播剧。看首发账号是否带剧名标签、是否附截图时间码，能在 1 分钟内排除误认。</p>
+          </div>
+          <div class="step">
+            <h3>找原始发布账号，不看二次转述</h3>
+            <p>平台方、工作室、节目组的官微是原始层；营销号截图属转述层。11 月 7 日流传的“导演朋友圈”截图，经比对头像与发布时间，与导演本人 10 月 30 日的公开动态不一致。</p>
+          </div>
+          <div class="step">
+            <h3>把时间线按小时排，不按热搜顺序排</h3>
+            <p>热搜排序看热度，不看先后。《声浪计划》票数争议中，选手后援会 11 月 7 日 19:40 先质疑，节目组 23:10 才公布拆票，中间 3 小时 30 分是各类猜测的集中期。</p>
+          </div>
+          <div class="step">
+            <h3>区分事实、回应、转述与推测，再决定信不信</h3>
+            <p>同一事件里四类信息混在一起时，优先信可复核的数字，如票数、时长、开票时间；对“知情人称”类表述保留，等第二来源。</p>
+          </div>
+          <div class="step">
+            <h3>关注可验证的后续节点</h3>
+            <p>加场看场馆批复，删改看下一集是否补叙，票数看是否公开分项。节点出现前，结论都只是暂定。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 信息分层（对照面板） -->
+      <section class="block" id="layers" aria-labelledby="h-layers">
+        <div class="sec-head">
+          <h2 id="h-layers">信息分层：本周三条传闻各归其位</h2>
+        </div>
+        <div class="layers">
+          <div class="layer fact">
+            <span class="k">事实</span>
+            <p><b>祁野杭州站 11 月 6 日 20:00 开票，4 分 12 秒售罄。</b>大麦页面售罄状态与主办方“回声现场”公告时间一致，场馆为黄龙体育馆，容量 8000 人。</p>
+          </div>
+          <div class="layer resp">
+            <span class="k">回应</span>
+            <p><b>主办方称加场“在走流程”。</b>11 月 7 日 15:00 回复媒体询问时给出的原话，未给批复时间，也未否认 11 月 23 日档期。</p>
+          </div>
+          <div class="layer quote">
+            <span class="k">转述</span>
+            <p><b>“内部说加场已定”——来自粉丝群转述。</b>转述者未提供截图或工单号，标注为待核实，不计入已确认信息。</p>
+          </div>
+          <div class="layer spec">
+            <span class="k">推测</span>
+            <p><b>若 11 月 23 日档期释放，加场概率较高。</b>依据是黄龙体育馆 11 月下旬无大型赛事排期，但这是推断，不是公告。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="block" id="faq" aria-labelledby="h-faq">
+        <div class="sec-head">
+          <h2 id="h-faq">常见问答</h2>
+          <span class="sub">六个高频问题，回答只讲可核对的部分</span>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>《雾港来信》电视版和流媒体版该看哪个？</summary>
+            <div class="ans">两版主线相同，差异集中在第 18 集夜戏。想完整看穆青与养父对手戏，选电视版（45:39）；只看主线推进，流媒体版不影响理解。第 21 集上线后若补叙旧案年份，两版差距会缩小。</div>
+          </details>
+          <details>
+            <summary>《声浪计划》第三轮票数为什么被质疑？</summary>
+            <div class="ans">争议点不在总数，在拆票前只公布总票 1038，未区分现场票 342 与云端票 331。后援会 11 月 7 日 19:40 指出云端票占比异常低，节目组 23:10 补发分项票数与专业评审票 365，质疑随之降温。</div>
+          </details>
+          <details>
+            <summary>祁野巡演加场什么时候能确定？</summary>
+            <div class="ans">取决于黄龙体育馆 11 月 23 日档期批复。主办方 11 月 7 日 15:00 的说法是“在走流程”，未给时间。场馆方面截至 11 月 8 日 09:00 未发布排期变更公告，可留意其官网大型活动日历。</div>
+          </details>
+          <details>
+            <summary>《山野厨房》第二季换嘉宾会影响口碑吗？</summary>
+            <div class="ans">首季评分 8.1，主要靠三人固定组合的日常感。第二季保留三人中的两人，新加入一位本地厨师。换人是否影响口碑，关键看新成员与原有节奏的磨合，11 月 14 日首播后一周内可见分晓。</div>
+          </details>
+          <details>
+            <summary>营销号发的“导演朋友圈截图”可信吗？</summary>
+            <div class="ans">不可作为依据。该截图头像与导演本人 10 月 30 日公开动态头像不一致，发布时间栏被裁切，无好友可见范围标识。目前未见导演本人或剧组就此发声明，只能列为转述层信息。</div>
+          </details>
+          <details>
+            <summary>怎样判断一条艺人传闻是否已进入回应阶段？</summary>
+            <div class="ans">看三个痕迹：工作室官微是否发过声明、是否有可查的媒体采访原话、当事人账号是否删除或置顶相关内容。三者皆无时，传闻仍停留在转述层，不宜当作事实引用。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 用户评论 -->
+      <section class="block" id="comments" aria-labelledby="h-comments">
+        <div class="sec-head">
+          <h2 id="h-comments">用户评论</h2>
+          <span class="sub">来自条目页，按发布时间排列</span>
+        </div>
+        <div class="cmt-list">
+          <div class="cmt good">
+            <div class="who">
+              <span class="avatar" style="background:#3f7a5b">雾</span>
+              <span class="name">雾港口型组</span>
+              <span class="when">11-07 22:20</span>
+            </div>
+            <p>第 18 集 31:12 的字幕和口型确实对不上，我把两版并排截了六张图，时间码都标在图上。删的不是一句两句，是穆青整段身世交代。</p>
+            <p class="tagline">指向条目：《雾港来信》第18集</p>
+          </div>
+          <div class="cmt hot">
+            <div class="who">
+              <span class="avatar" style="background:#c98a2e">票</span>
+              <span class="name">票数观察员</span>
+              <span class="when">11-07 23:40</span>
+            </div>
+            <p>拆票之后反而清楚了。现场票 342、云端票 331，差 11 票看着小，但云端票占比只有三成，和前两轮的平均值比低了一截，节目组该解释的是这个比例。</p>
+            <p class="tagline">指向条目：《声浪计划》第三轮分项票数</p>
+          </div>
+          <div class="cmt bad">
+            <div class="who">
+              <span class="avatar" style="background:#7a7092">倦</span>
+              <span class="name">倦了不追</span>
+              <span class="when">11-08 00:15</span>
+            </div>
+            <p>剪辑师直播那段我看了全程，关键问题一句没答，只说“定剪之后没参与”。这种回应等于没回应，倒让平台说明更像单方面口径。</p>
+            <p class="tagline">指向条目：剪辑师“老刀”11-07 直播</p>
+          </div>
+          <div class="cmt">
+            <div class="who">
+              <span class="avatar" style="background:#c2334d">杭</span>
+              <span class="name">杭州抢票第三天</span>
+              <span class="when">11-08 01:02</span>
+            </div>
+            <p>4 分 12 秒售罄，我卡在付款页没进去。加场如果真定 23 号，希望主办方提前一天预告开票时间，别又是整点突袭。</p>
+            <p class="tagline">指向条目：祁野杭州站开票</p>
+          </div>
+          <div class="cmt">
+            <div class="who">
+              <span class="avatar" style="background:#3f7a5b">松</span>
+              <span class="name">松阳本地人</span>
+              <span class="when">11-06 09:44</span>
+            </div>
+            <p>《山野厨房》第二季在我们这边录的，村口那家面馆被拍进去了。换嘉宾这事不好说，但取景确实比第一季更有生活气。</p>
+            <p class="tagline">指向条目：《山野厨房》第二季录制地</p>
+          </div>
+          <div class="cmt bad">
+            <div class="who">
+              <span class="avatar" style="background:#9b8f92">旁</span>
+              <span class="name">旁观吃瓜</span>
+              <span class="when">11-05 21:10</span>
+            </div>
+            <p>这几天热搜换得太快，昨天的事今天没人提。平台说明发出来的时候，讨论量已经掉了一半，这种节奏下很难等到真正的回应。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 相关资讯 -->
+      <section class="block" id="news" aria-labelledby="h-news">
+        <div class="sec-head">
+          <h2 id="h-news">相关资讯</h2>
+        </div>
+        <div class="news-grid">
+          <div class="news-item">
+            <span class="day">11-05</span>
+            <h3>《长夏未晚》大结局点映加开三地六场</h3>
+            <p>北京、成都、广州各加 2 场，点映 11 月 11 日 19:30，云鲸 TV 票务页显示余票情况实时更新。</p>
+          </div>
+          <div class="news-item">
+            <span class="day">11-04</span>
+            <h3>黄龙体育馆 11 月排期公布，下旬无赛事</h3>
+            <p>场馆官网大型活动日历显示 11 月 20 日至 30 日无体育赛事，演唱会档期待定，这为祁野加场留下窗口。</p>
+          </div>
+          <div class="news-item">
+            <span class="day">11-03</span>
+            <h3>《声浪计划》第四轮录制提前至 11 月 10 日</h3>
+            <p>节目组 11 月 3 日通知调整录制档期，原定 11 月 12 日，提前两天，官方解释为“配合选手行程”。</p>
+          </div>
+          <div class="news-item">
+            <span class="day">11-02</span>
+            <h3>短剧《便利店夜班》上线三日分账破 300 万</h3>
+            <p>制作方“小满短剧”公布数据，单集平均播放 480 万，平台未单独披露，数字以制作方口径为准。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 补充板块：热议榜 -->
+      <section class="block" id="rank" aria-labelledby="h-rank">
+        <div class="sec-head">
+          <h2 id="h-rank">热议榜</h2>
+          <span class="sub">按 11 月 7 日 12:00 至 11 月 8 日 09:00 讨论量排序</span>
+        </div>
+        <div class="leads" style="display:grid;gap:10px">
+          <div class="update-item" style="border:1px solid var(--line);border-radius:var(--radius-m);background:#fff">
+            <span class="time">No.1</span>
+            <div><h3>《雾港来信》第18集 47 秒删改</h3><p>逐帧对比文档转发 2.1 万，平台说明评论区关闭转发。</p></div>
+            <span class="src">剧集</span>
+          </div>
+          <div class="update-item" style="border:1px solid var(--line);border-radius:var(--radius-m);background:#fff">
+            <span class="time">No.2</span>
+            <div><h3>《声浪计划》云端票占比异常</h3><p>分项票公布后讨论量回落 42%，仍居综艺类首位。</p></div>
+            <span class="src">综艺</span>
+          </div>
+          <div class="update-item" style="border:1px solid var(--line);border-radius:var(--radius-m);background:#fff">
+            <span class="time">No.3</span>
+            <div><h3>祁野杭州站加场在等批复</h3><p>大麦“想看”人数 12.4 万，远超场馆容量 8000。</p></div>
+            <span class="src">音乐</span>
+          </div>
+          <div class="update-item" style="border:1px solid var(--line);border-radius:var(--radius-m);background:#fff">
+            <span class="time">No.4</span>
+            <div><h3>《山野厨房》第二季换嘉宾</h3><p>定档预告播放 930 万，评论区对新成员评价两极。</p></div>
+            <span class="src">综艺</span>
+          </div>
+          <div class="update-item" style="border:1px solid var(--line);border-radius:var(--radius-m);background:#fff">
+            <span class="time">No.5</span>
+            <div><h3>“导演朋友圈截图”流传</h3><p>截图头像与公开动态不一致，已标注待核实。</p></div>
+            <span class="src">传闻</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 时间线 -->
+      <section class="block" id="timeline" aria-labelledby="h-timeline">
+        <div class="sec-head">
+          <h2 id="h-timeline">事件时间线：从第18集上线到平台说明</h2>
+        </div>
+        <div class="timeline">
+          <div class="tl">
+            <time>10-30 20:00</time>
+            <h3>第 18 集流媒体上线</h3>
+            <p>星澜视频会员抢先看，版本序列号 V2，时长 44:52。</p>
+          </div>
+          <div class="tl">
+            <time>11-02 21:30</time>
+            <h3>电视版播出</h3>
+            <p>卫星频道播出，时长 45:39，观众首次发现夜戏内容不同。</p>
+          </div>
+          <div class="tl">
+            <time>11-05 14:00</time>
+            <h3>导演组群访被问及删改</h3>
+            <p>回应“后半段会回扣”，未确认是否补叙。</p>
+          </div>
+          <div class="tl">
+            <time>11-07 07:20</time>
+            <h3>星澜视频发布 132 字说明</h3>
+            <p>称“配合电视版时长的常规操作”，未给版本号。</p>
+          </div>
+          <div class="tl">
+            <time>11-07 21:34</time>
+            <h3>剪辑师“老刀”直播回应</h3>
+            <p>否认参与定剪后修改，称定剪在 9 月中完成。</p>
+          </div>
+          <div class="tl">
+            <time>11-08 08:40</time>
+            <h3>客服口径与平台说明一致</h3>
+            <p>仍未提供修改记录与操作方信息，争议点停留在决策归属。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 相关推荐 -->
+      <section class="block" id="tags" aria-labelledby="h-tags">
+        <div class="sec-head">
+          <h2 id="h-tags">相关推荐</h2>
+        </div>
+        <div class="tags">
+          <a href="/#deep">雾港来信第18集删改对比</a>
+          <a href="/#faq">声浪计划分项票怎么看</a>
+          <a href="/#news">祁野巡演加场批复查询</a>
+          <a href="/#picks">山野厨房第二季嘉宾名单</a>
+          <a href="/#timeline">剧集双版本差异时间线</a>
+          <a href="/#guide">艺人工作室声明真假辨别</a>
+          <a href="/#picks">长夏未晚点映场次</a>
+          <a href="/#layers">导演朋友圈截图核实</a>
+          <a href="/#news">便利店夜班分账数据</a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 侧栏 -->
+    <aside class="sidebar" aria-label="侧栏导航与榜单">
+      <div class="side-card">
+        <h2>栏目导航</h2>
+        <ul class="side-nav" id="sideNav">
+          <li><a href="/#overview">领域概览</a></li>
+          <li><a href="/#picks">精选内容推荐</a></li>
+          <li><a href="/#latest">最新更新</a></li>
+          <li><a href="/#cats">分类入口</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#layers">信息分层</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#comments">用户评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#rank">热议榜</a></li>
+          <li><a href="/#timeline">事件时间线</a></li>
+          <li><a href="/#tags">相关推荐</a></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h2>在追剧集热度</h2>
+        <ol class="rank">
+          <li><a href="/#deep">雾港来信</a><small>评分 8.6 · 争议中</small></li>
+          <li><a href="/#news">长夏未晚</a><small>评分 8.2 · 已完结</small></li>
+          <li><a href="/#picks">旧城灯塔</a><small>评分 7.9 · 更新至 12 集</small></li>
+          <li><a href="/#picks">便利店夜班</a><small>短剧 · 分账破 300 万</small></li>
+          <li><a href="/#picks">北纬三十度</a><small>评分 7.5 · 更新至 8 集</small></li>
+        </ol>
+      </div>
+      <div class="side-card">
+        <h2>核对提示</h2>
+        <p class="side-note">带“待核实”标记的条目，表示目前只有单一来源或截图。来源补齐后会在线更新，历史状态可查时间线板块。</p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="footer" id="footer">
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <div class="fbrand">
+          <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+            <rect width="64" height="64" rx="14" fill="#c2334d"/>
+            <path d="M14 42c5-13 11-18 18-21 7 3 13 8 18 21z" fill="#ffe9c7"/>
+            <circle cx="32" cy="17" r="5" fill="#ffe9c7"/>
+          </svg>
+          吃瓜不打烊166run热点
+        </div>
+        <p>把热搜条目放回时间线，标出来源、回应与待核实处，让讨论有上下文可依。</p>
+        <p class="sample-note">页面条目、评论、票数与播放数据部分为示例内容，用于展示信息组织方式；真实信息以平台与官方账号发布为准。</p>
+      </div>
+      <div>
+        <h3>剧集频道</h3>
+        <ul>
+          <li><a href="/#deep">剧集剪辑争议</a></li>
+          <li><a href="/#news">平台定档与撤档</a></li>
+          <li><a href="/#timeline">双版本差异时间线</a></li>
+          <li><a href="/#tags">短剧与微短剧上新</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>综艺与现场</h3>
+        <ul>
+          <li><a href="/#latest">综艺赛制与票数</a></li>
+          <li><a href="/#rank">演唱会加场与开票</a></li>
+          <li><a href="/#news">音乐节阵容变动</a></li>
+          <li><a href="/#guide">看剧版本选择</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>核实与互动</h3>
+        <ul>
+          <li><a href="/#layers">信息分层</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#comments">用户评论</a></li>
+          <li><a href="/#tags">相关推荐</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>内容更新时间：2026-11-08 08:40，对应“最新更新”与“热议榜”两处条目。</span>
+      <span>© 2026 吃瓜不打烊166run热点 · 内容示例 · 保留所有权利</span>
+    </div>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="回到顶部" title="回到顶部">↑</button>
+
+<script>
+(function(){
+  var menuToggle=document.getElementById('menuToggle');
+  var navMain=document.getElementById('navMain');
+  var searchBtn=document.getElementById('searchBtn');
+  var searchPanel=document.getElementById('searchPanel');
+  var searchInput=document.getElementById('searchInput');
+  var searchGo=document.getElementById('searchGo');
+  var searchResult=document.getElementById('searchResult');
+
+  menuToggle.addEventListener('click',function(){
+    var open=navMain.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded',open?'true':'false');
+  });
+  navMain.addEventListener('click',function(e){
+    if(e.target.tagName==='A'&&window.innerWidth<=1040){
+      navMain.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded','false');
+    }
+  });
+
+  searchBtn.addEventListener('click',function(){
+    var open=searchPanel.classList.toggle('open');
+    searchBtn.setAttribute('aria-expanded',open?'true':'false');
+    if(open){searchInput.focus();}
+  });
+
+  var data=[
+    {t:'《雾港来信》第18集双版本删改对比',id:'deep'},
+    {t:'《声浪计划》第三轮分项票数',id:'latest'},
+    {t:'祁野杭州站开票售罄与加场',id:'news'},
+    {t:'《山野厨房》第二季定档嘉宾更换',id:'picks'},
+    {t:'《长夏未晚》大结局点映加场',id:'news'},
+    {t:'剪辑师老刀直播回应',id:'latest'},
+    {t:'导演朋友圈截图核实',id:'layers'},
+    {t:'信息分层：事实、回应、转述、推测',id:'layers'},
+    {t:'看剧避坑与版本选择',id:'guide'},
+    {t:'综艺赛制与票数怎么看',id:'faq'},
+    {t:'便利店夜班分账数据',id:'news'},
+    {t:'热议榜前五条',id:'rank'},
+    {t:'事件时间线复盘',id:'timeline'},
+    {t:'相关推荐标签',id:'tags'}
+  ];
+
+  function doSearch(){
+    var q=searchInput.value.trim();
+    if(!q){
+      searchResult.textContent='请输入关键词，例如：雾港来信、声浪计划、加场。';
+      return;
+    }
+    var hit=data.filter(function(d){return d.t.indexOf(q)>-1;});
+    if(!hit.length){
+      searchResult.innerHTML='<span>没有找到与“'+q.replace(/</g,'&lt;').replace(/>/g,'&gt;')+'”匹配的条目，试试剧名、节目名或事件关键词。</span>';
+      return;
+    }
+    var html='<ul>';
+    hit.slice(0,8).forEach(function(d){
+      html+='<li><a href="/#'+d.id+'"><b>'+d.t+'</b></a></li>';
+    });
+    html+='</ul>';
+    searchResult.innerHTML='<span>找到 '+hit.length+' 条结果：</span>'+html;
+  }
+  searchGo.addEventListener('click',doSearch);
+  searchInput.addEventListener('keydown',function(e){
+    if(e.key==='Enter'){doSearch();}
+  });
+
+  // 滚动高亮
+  var sections=Array.prototype.slice.call(document.querySelectorAll('.content section.block[id]'));
+  var sideLinks=Array.prototype.slice.call(document.querySelectorAll('#sideNav a'));
+  function onScroll(){
+    var pos=window.scrollY+150;
+    var current=null;
+    sections.forEach(function(s){
+      if(s.offsetTop<=pos){current=s.id;}
+    });
+    sideLinks.forEach(function(a){
+      a.classList.toggle('on',a.getAttribute('href')==='#'+current || a.getAttribute('href')==='/# '+current);
+      var href=a.getAttribute('href')||'';
+      a.classList.toggle('on',href==='#'+current||href==='/# '+current||href==='/'+'#'+current);
+    });
+    var toTop=document.getElementById('toTop');
+    if(window.scrollY>500){toTop.classList.add('show');}else{toTop.classList.remove('show');}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+
+  document.getElementById('toTop').addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"吃瓜不打烊166run热点",
+  "inLanguage":"zh-CN",
+  "description":"汇集影视综音娱每日热点，梳理时间线与信息层级，附条目评论与核对清单。"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"《雾港来信》电视版和流媒体版该看哪个？","acceptedAnswer":{"@type":"Answer","text":"两版主线相同，差异集中在第18集夜戏。想完整看穆青与养父对手戏，选电视版（45:39）；只看主线推进，流媒体版不影响理解。"}},
+    {"@type":"Question","name":"《声浪计划》第三轮票数为什么被质疑？","acceptedAnswer":{"@type":"Answer","text":"争议点不在总数，在拆票前只公布总票1038，未区分现场票342与云端票331。节目组11月7日23:10补发分项票数与专业评审票365。"}},
+    {"@type":"Question","name":"祁野巡演加场什么时候能确定？","acceptedAnswer":{"@type":"Answer","text":"取决于黄龙体育馆11月23日档期批复。主办方11月7日15:00说法是“在走流程”，未给时间。"}},
+    {"@type":"Question","name":"《山野厨房》第二季换嘉宾会影响口碑吗？","acceptedAnswer":{"@type":"Answer","text":"首季评分8.1，主要靠三人固定组合的日常感。第二季保留两人，新加入一位本地厨师，11月14日首播后一周内可见分晓。"}},
+    {"@type":"Question","name":"营销号发的“导演朋友圈截图”可信吗？","acceptedAnswer":{"@type":"Answer","text":"不可作为依据。截图头像与导演本人10月30日公开动态头像不一致，发布时间栏被裁切，只能列为转述层信息。"}},
+    {"@type":"Question","name":"怎样判断一条艺人传闻是否已进入回应阶段？","acceptedAnswer":{"@type":"Answer","text":"看三个痕迹：工作室官微是否发过声明、是否有可查的媒体采访原话、当事人账号是否删除或置顶相关内容。三者皆无时，传闻仍停留在转述层。"}}
+  ]
+}
+</script>
+</body>
+            </html>
